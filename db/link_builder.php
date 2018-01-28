@@ -23,6 +23,10 @@ function save_urls($urls = array())
 	return true;
 }
 
+function get_all_urls_from_db()
+{
+	return get_all_urls();
+}
 function get_urls_from_db($offset, $limit)
 {
 	return get_urls($offset, $limit);

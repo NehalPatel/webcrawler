@@ -43,12 +43,35 @@ function save_link( $data = array() )
 	if( check_duplicate($data['hash']) )
 		return false;
 
-	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, data, created_at, last_visited) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. sanitize($data['title']). '", "", "'. date('Y-m-d H:i:s') .'", "")';
+	$title = mysqli_real_escape_string($conn, $data['title']);
 
-	echo $sql . '<br />';
+	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, data, created_at, last_visited) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. $title . '", "", "'. date('Y-m-d H:i:s') .'", "")';
+
+	//echo $sql . '<br />';
 
 	if ($conn->query($sql) === TRUE) {
 	    return true;
+	}
+
+	return false;
+}
+
+function get_all_urls()
+{
+	global $conn;
+
+	$sql = "SELECT * FROM " . TABLE ." WHERE last_visited < '" . date("Y-m-d") ."'";
+	//echo $sql . "<br>";
+	$result = $conn->query($sql);
+
+	$records = array();
+
+	if ($result->num_rows > 0) {
+	    while($row = $result->fetch_assoc()) {
+	    	$records[] = $row;
+	    }
+
+	    return $records;
 	}
 
 	return false;
@@ -60,7 +83,7 @@ function get_urls($offset = 20, $limit = 10)
 
 	//$sql = "SELECT * FROM " . TABLE ." WHERE last_visited < '" . date("Y-m-d") ."'";
 	$sql = "SELECT * FROM " . TABLE ." WHERE last_visited < '" . date("Y-m-d") ."' LIMIT ".$offset.",".$limit;
-	echo $sql . "<br>";
+	//echo $sql . "<br>";
 	$result = $conn->query($sql);
 
 	$records = array();
@@ -71,6 +94,23 @@ function get_urls($offset = 20, $limit = 10)
 	    }
 
 	    return $records;
+	}
+
+	return false;
+}
+
+function save_html($hash, $html)
+{
+	global $conn;
+
+	$html = mysqli_real_escape_string($conn, $html);
+
+	$sql = 'UPDATE ' . TABLE . ' SET data="'. $html .'", last_visited="'. date("Y-m-d") .'" WHERE hash="'. $hash .'"';
+
+	//echo $sql . '<br />';
+
+	if ($conn->query($sql) === TRUE) {
+	    return true;
 	}
 
 	return false;

@@ -9,6 +9,15 @@ function clean_html($html)
 	return $html;
 }
 
+function strip_html_contents( $html )
+{
+	$html = clean_html( $html );
+	$html = strip_tags($html);
+	$html = trim(preg_replace('/\s\s+/', ' ', str_replace("\n", " ", $html)));
+
+	return $html;
+}
+
 //collect all the anchor tags from the HTML
 function getURLs($html, $base_url)
 {
@@ -24,6 +33,9 @@ function getURLs($html, $base_url)
 	foreach ($anchors[0] as $key => $link) {
 		//get the HREF from the URL
 		preg_match_all('/<a[^>]+href=([\'"])(?<href>.+?)\1[^>]*>/i', $link, $result);
+
+		if(empty($result['href'][0]))
+			continue;
 
 		$url = $result['href'][0];
 		$url = rel2abs($url, $base_url);
@@ -97,17 +109,5 @@ function generate_hash($url)
 {
 	return md5( $url );
 }
-
-
-function save_html( $urls = array() )
-{
-	if( empty($urls))
-		return false;
-
-	foreach ($urls as $key => $link) {
-		print_r($link);
-	}
-}
-
 
 ?>
