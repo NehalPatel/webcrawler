@@ -1,0 +1,2586 @@
+
+<!doctype html>
+<html lang="gu">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-10646-1">
+<!-- viewport meta to reset iPhone inital scale -->
+
+<meta name="viewport" content="width=1024, user-scalable=yes" />
+
+<meta name="description" content="Gujarat Samachar is world's highest selling Gujarati Newspaper. Our portal connects people of Indian diaspora worldwide. This website provides news about India, USA, Finance, Movies, Music, Bollywood, beauty and lifestyle, politics, technology and purti. We also offer classifieds for jobs and marriages. Expand your social network. Site also provides information on shopping deals, mobile phone deals, travel deals.">
+
+<meta name="keywords" content="News from Ahmedabad,News from Baroda,Gujarati Newspaper,Ahmedabad News,Baroda News,Gujarati News live,Gujarati, Gujrati News,Gujarat Samachar,Gujarati News,Gujarati News Paper,Gujarati News paper,gujrat,samachar,gujarati garba,news from Ahmedabad,news from Baroda,news from Surat,magazine,purti,gujarat samachar,gujarat, gujarati news, news, india, ahmedabad, narendra modi, bjp, congress, election, politics, nrg, nri, baroda, bhavnagar, rajkot, surat, vadodara, sandesh, bhaskar, times, songs, bollywood, films, movies, business, finance, rent, android, ipod, iphone, mac, phone, mobile, ring tone,usa,america,ravi purti,Gujarati News Headlines,Gujarati Headlines">
+
+<title>Gujarat Samachar : World's Leading Gujarati Newspaper, Gujarati News, News in Gujarati, Gujarat News, News from Ahmedabad, Baroda, Bhuj, Bhavnagar, Rajkot, Surat, Gujarati News Headlines, Gujarati Headlines, Breaking News, 2G Spectrum Scam Exposed, 2g Scam Explained, video clip, muncipal, kite, festival, ahmedabad news, Politics news, opposition party, congress, bjp, health, relations</title>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Min CSS -->
+
+<link onload="if(media!='all')media='all'" rel="stylesheet" href="/min/?g=css" type="text/css" />
+
+<!-- END MIN CSS -->
+
+<!-- Color Screen  -->
+
+<!-- Color Screen  -->
+
+<!-- Min JS -->
+
+<script type="text/javascript" src="/min/?g=js"></script>
+
+<link media="screen" rel="stylesheet" type="text/css" href="/min/f=pages/css/design1.css,styles/colorbox/colorbox.css" />
+<script src="/min/f=styles/colorbox/jquery.colorbox.js"></script>
+<!-- END MIN JS -->
+
+<script language="javascript" type="text/javascript">
+	jQuery(document).ready(function () {
+
+		//Ganesh 29-08-2014
+		$('a.photo_of_the_day_gallery').colorbox({ rel:'photo_of_the_day_gallery' /*,slideshow:true, transition:"fade"*/});
+		//Ganesh 29-08-2014
+
+		//$("#load").html('<img style="height:100px !important; width:100px !important; " src="http://gujaratsamachar.com/vbeta/images/loading/47.gif"/>');
+		//$("#load").show();
+		$("div").lazyload({});
+		$("#sidebar div").lazyload();
+
+		/*$('div#carousel_items').bind('slide',function(){
+		 alert("Slide Event");
+		 });*/
+	});
+</script>
+
+
+<script charset="utf-8" type="text/javascript">
+ $(document).ready(function(){
+	$("img").lazyload({
+       	placeholder: "http://www.gujaratsamachar.com/pages/images/grey.gif",
+		effect : 'fadeIn',
+		failure_limit : 10
+	});
+ });
+</script>
+
+<!-- Script for redirecting to mobile website by swapnil Start -->
+<script type="text/javascript">
+	if(screen.width <= 699){
+		document.location = "http://m.gujaratsamachar.com";
+	}
+</script>
+<!-- Script for redirecting to mobile website by swapnil End -->
+
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+(function(){
+
+	require({
+			baseUrl:"/pages/js/jcarousel/",
+			urlArgs: "",
+			enforceDefine: true,
+			waitSeconds: 200,
+			paths:{"wwhomepage.ui.carouselfactory":"main", "wwhomepage.utils.popup":"main", "wwhomepage.ui.drawers":"main", "wwhomepage.ui.tabs":"main", "wwhomepage.ui.weather":"bundles/main","lib.external.moodular":"main", "lib.external.jqueryEffects":"main"}
+	});
+
+})()
+
+//]]>
+
+</script>
+
+
+<!-- //-->
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+  $("#toggle").click(function(){
+
+    $("nav li").toggle();
+
+  });
+
+});
+
+</script>
+
+
+
+<script type="text/javascript" language="javascript">
+	$(function() {
+		//Scrolled by user interaction
+		$('#foo2').carouFredSel({
+			prev: '#prev2',
+			next: '#next2',
+			pagination: "#pager2",
+			auto: false
+		});
+		$('#foo21').carouFredSel({
+			prev: '#prev21',
+			next: '#prev21',
+			pagination: "#pager2",
+			auto: false
+		});
+
+		/*$('#foo22').carouFredSel({
+			prev: '#prev22',
+			next: '#next22',
+			pagination: "#pager22",
+			auto: false
+		});*/
+	});
+</script>
+
+
+
+<!-- Comments Save -->
+
+
+<script type="text/javascript">
+
+function save_comment(){
+
+//alert("Called");
+
+ 	var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+	fname = document.getElementById('fname').value;
+
+	//alert("fname = "+fname);
+
+	//lname = document.getElementById('lname').value;
+
+	//alert("lname = "+lname);
+
+	city = document.getElementById('city').value;
+
+	//alert("location = "+city);
+
+	email = document.getElementById('email').value;
+
+	//alert("email = "+email);
+
+	message = document.getElementById('message').value;
+
+	//alert("message = "+message);
+
+	articleid = document.getElementById('articleid').value;
+
+	if((fname == "") || (fname == " ") || (fname == "Your Name"))
+
+	{
+
+		alert("Please Enter Your Name");
+
+		document.getElementById('fname').focus();
+
+	}
+
+	else if((city == "") || (city == " ") || (city == "Your Location"))
+
+	{
+
+		alert("Please Enter Your Location");
+
+		document.getElementById('city').focus();
+
+	}
+
+	else if((message == "") || (message == " "))
+
+	{
+
+		alert("Please Enter Message");
+
+		document.getElementById('message').focus();
+
+	}
+
+	else if((email == "") || (email == " "))
+
+	{
+
+		alert("Please Enter Proper Email");
+
+		document.getElementById('email').focus();
+
+	}
+
+	else if(reg.test(email) == false)
+
+    {
+
+       alert('Invalid Email Address');
+
+	   document.getElementById('email').focus();
+
+    }
+
+	else
+
+	{
+
+		//alert("articleid = "+articleid);
+
+		url = document.location.href;
+
+		xend = url.lastIndexOf("/") + 1;
+
+		var base_url = url.substring(0, xend);
+
+		url = "http://www.gujaratsamachar.com/index.php/articles/submit_comments?fname="+fname+"&city="+city+"&email="+email+"&message="+message+"&articleid="+articleid;
+
+		var strSubmit="";
+
+		var strURL = url;
+
+		var strResultFunc = "resultcomment";
+
+		xmlhttpPost(strURL, strSubmit, strResultFunc)
+
+		//show_page_sections(pifsst)
+
+		return true;
+
+	}
+
+}
+
+function resultcomment(res){
+
+	alert(res);
+
+	document.getElementById('fname').value = "";
+
+	//document.getElementById('lname').value = "";
+
+	document.getElementById('city').value = "";
+
+	document.getElementById('email').value = "";
+
+	document.getElementById('message').value = "";
+
+	//document.getElementById('tablist').style.display = 'block';
+
+	//document.getElementById('positionlist').style.display = 'none';
+
+}
+//Sub Category In Classification
+</script>
+
+<!-- /Comments Save -->
+
+
+
+
+</head>
+<body class="screen2">
+<div id="pagewrap">
+
+<header>
+
+    <div id="header">
+
+        <!--div class="header-top-box">
+
+            <div class="theme-color-box">
+
+                <a href="javascript:chooseStyle('none', 60)"><img src="/pages/images/color-green.png" alt="" title=""></a>
+
+            </div>
+
+        </div-->
+
+        <div class="header-logobox">
+
+            <div class="logo"><a href="http://www.gujaratsamachar.com/"><img src="/pages/images/logo.png" data-original="http://www.gujaratsamachar.com/pages/images/logo.png" alt="Gujarat Samachar" title="Gujarat Samachar"></a>
+
+                <div class="last-update">Last Update : 25 January, 2018 09:26 PM</div>
+
+            </div>
+
+            <div class="add-top">
+
+                	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- HomePageTop468x60 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8096200923666860"
+     data-ad-slot="7150457136"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+            </div>
+
+
+
+        </div>
+
+    <div class="clear"></div>
+
+	<!-- Header Menu  -->
+	<div class="dcjq-mega-menu">
+		<ul id="mega-menu-tut" class="menu c-ViruMenu">
+												<li class="act">
+										<a href="http://www.gujaratsamachar.com/">Home</a>
+										<!-- Sub Menu -->
+																				<!-- End Sub Menu -->
+									</li>
+																		<li >
+											<a href="#" class="u-parentsMenu">Gujarat</a>
+											<ul class='menu-gujarat5'>													<li><a title="Ahmedabad" href="http://www.gujaratsamachar.com/index.php/page/ahmedabad" class="one_1">Ahmedabad</a></li>
+																								<li><a title="Baroda" href="http://www.gujaratsamachar.com/index.php/page/baroda" class="one_2">Baroda</a></li>
+																								<li><a title="Surat" href="http://www.gujaratsamachar.com/index.php/page/surat" class="one_3">Surat</a></li>
+																								<li><a title="Rajkot" href="http://www.gujaratsamachar.com/index.php/page/rajkot" class="one_4">Rajkot</a></li>
+																								<li><a title="Bhuj" href="http://www.gujaratsamachar.com/index.php/page/bhuj" class="one_5">Bhuj</a></li>
+																								<li><a title="Kheda-Anand" href="http://www.gujaratsamachar.com/index.php/page/kheda-anand" class="one_6">Kheda-Anand</a></li>
+																								<li><a title="North Gujarat" href="http://www.gujaratsamachar.com/index.php/page/north-gujarat" class="one_7">North Gujarat</a></li>
+																								<li><a title="Bhavnagar" href="http://www.gujaratsamachar.com/index.php/page/bhavnagar" class="one_8">Bhavnagar</a></li>
+																								<li><a title="Gandhinagar" href="http://www.gujaratsamachar.com/index.php/page/gandhinagar" class="one_9">Gandhinagar</a></li>
+											</ul>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/mumbai" style="">Mumbai</a>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/national" style="">National</a>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/international" style="">International</a>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/entertainment" style="">Entertainment</a>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/sports" style="">Sports</a>										</li>
+																			<li >
+										<a href="http://www.gujaratsamachar.com/index.php/page/business" style="">Business</a>										</li>
+																			<li>
+											<a href="#" class="u-parentsMenu">Magazines</a>
+											<ul class='menu-gujaratm'>													<li id="menu-item-1"><a  href="http://www.gujaratsamachar.com/index.php/page/ravi-purti"><img src="http://www.gujaratsamachar.com/pages/images/pr0.png" data-original="http://www.gujaratsamachar.com/pages/images/pr0.png" alt="Ravi Purti" title="Ravi Purti"></a></li>
+																								<li id="menu-item-2"><a  href="http://www.gujaratsamachar.com/index.php/page/business-plus"><img src="http://www.gujaratsamachar.com/pages/images/pr1.png" data-original="http://www.gujaratsamachar.com/pages/images/pr1.png" alt="Business Plus" title="Business Plus"></a></li>
+																								<li id="menu-item-3"><a  href="http://www.gujaratsamachar.com/index.php/page/sahiyar"><img src="http://www.gujaratsamachar.com/pages/images/pr2.png" data-original="http://www.gujaratsamachar.com/pages/images/pr2.png" alt="Sahiyar" title="Sahiyar"></a></li>
+																								<li id="menu-item-4"><a  href="http://www.gujaratsamachar.com/index.php/page/shatdal"><img src="http://www.gujaratsamachar.com/pages/images/pr3.png" data-original="http://www.gujaratsamachar.com/pages/images/pr3.png" alt="Shatdal" title="Shatdal"></a></li>
+																								<li id="menu-item-5"><a  href="http://www.gujaratsamachar.com/index.php/page/dharmlok"><img src="http://www.gujaratsamachar.com/pages/images/pr4.png" data-original="http://www.gujaratsamachar.com/pages/images/pr4.png" alt="Dharmlok" title="Dharmlok"></a></li>
+																								<li id="menu-item-6"><a  href="http://www.gujaratsamachar.com/index.php/page/chitralok"><img src="http://www.gujaratsamachar.com/pages/images/pr5.png" data-original="http://www.gujaratsamachar.com/pages/images/pr5.png" alt="Chitralok" title="Chitralok"></a></li>
+																								<li id="menu-item-7"><a  href="http://www.gujaratsamachar.com/index.php/page/zagmag"><img src="http://www.gujaratsamachar.com/pages/images/pr6.png" data-original="http://www.gujaratsamachar.com/pages/images/pr6.png" alt="Zagmag" title="Zagmag"></a></li>
+																								<li id="menu-item-8"><a  href="http://www.gujaratsamachar.com/index.php/page/gujarat-samachar-plus"><img src="http://www.gujaratsamachar.com/pages/images/pr7.png" data-original="http://www.gujaratsamachar.com/pages/images/pr7.png" alt="Gujarat Samachar Plus" title="Gujarat Samachar Plus"></a></li>
+											</ul>										</li>
+																			<li >
+										<a href="#" class="u-parentsMenu"  style="">Vaividhya</a><ul class='subnav'>													<li><a href="http://www.gujaratsamachar.com/index.php/page/cine-magic">Cine Magic</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/vichar-vihar">Vichar Vihar</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/delhi-ni-vaat">Delhi ni Vaat</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/news-focus">News Focus</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/tantri-lekh">Tantri Lekh</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/prasangpat">Prasangpat</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/to-the-point">To The Point </a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/mera-bharat-mahan6907">Mera Bharat Mahan</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/around-the-world5232">Around the World</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/network">Network</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/saransh">Saransh</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/boj-viana-ni-moj">Boj Viana ni Moj</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/int-ane-imarat">Int ane Imarat</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/aapna-to-adhar-vanka">Aapna to adhar vanka</a></li>
+																								<li><a href="http://www.gujaratsamachar.com/index.php/page/samvedna">Samvedna</a></li>
+											</ul>										</li>
+														<li><a href="http://gujaratsamacharepaper.com/" class="u-parentsMenu" target="_blank">ePaper</a></li>
+											<li><a href="#" class="u-parentsMenu">More</a>
+							<ul class='subnav'>
+																		<li><a href="http://www.gujaratsamachar.com/index.php/page/astro">Astro</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/nri-news">NRI News</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/photo/">Slide Show</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/health">Health</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/relationship">Relationship</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/lifestyle-fashion">Lifestyle & Fashion</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/science-technology">Science & Technology</a></li>
+																			<li><a href="http://www.gujaratsamachar.com/index.php/page/poll">Poll</a></li>
+																</ul>
+						</li>
+									<!--Static Menu for Photo Slider-->
+			<!--<li><a href="http://www.gujaratsamachar.com/index.php/photo">SLIDE SHOW</a></li>-->
+		</ul>		</div>
+<!-- END Header Menu -->
+    </div>
+
+</header>
+
+
+<script type="text/javascript">
+
+<!--
+
+$(function () {
+
+// basic version is: $('div.demo marquee').marquee() - but we're doing some sexy extras
+
+$('marquee').marquee('breaking-news-box ').mouseover(function () {
+
+	$(this).trigger('stop');
+
+}).mouseout(function () {
+
+	$(this).trigger('start');
+
+}).mousemove(function (event) {
+
+	if ($(this).data('drag') == true) {
+
+		this.scrollLeft = $(this).data('scrollX') + ($(this).data('x') - event.clientX);
+
+	}
+
+}).mousedown(function (event) {
+
+	$(this).data('drag', true).data('x', event.clientX).data('scrollX', this.scrollLeft);
+
+}).mouseup(function () {
+
+	$(this).data('drag', false);
+
+});
+
+});
+
+//-->
+
+</script>
+<style>
+  .list_carousel2 .caroufredsel_wrapper{ width:96% !important; margin:0 2% !important; height:170px !important;}
+</style>
+<script type="text/javascript" src="/min/f=js/jquery-1.8.1.js,js/jquery.lazyload.min.js"></script>
+
+
+<script language="javascript" type="text/javascript">
+  jQuery(document).ready(function() {
+
+    //Ganesh 29-08-2014
+	//jQuery('a.photo_of_the_day_gallery').colorbox({ /*,rel:'photo_of_the_day_gallery', slideshow:true, transition:"fade"*/});
+	//Ganesh 29-08-2014
+
+    //$("#load").html('<img style="height:100px !important; width:100px !important; " src="http://www.gujaratsamachar.com/images/loading/47.gif"/>');
+    //$("#load").show();
+    jQuery("div").lazyload({});
+    jQuery("#sidebar div").lazyload();
+
+    /*$('div#carousel_items').bind('slide',function(){
+     alert("Slide Event");
+     });*/
+  });
+</script>
+<!-- Content Start -->
+
+
+<div id="content" class="cont74">
+
+	<!--div class="header_content">
+			<table class="nil-validator">
+				<tr  class="braking74">
+					<td  class="bbn1"><a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_10" title="Gujarat Election" target="_blank"><b style="font-size:17px;">Gujarat Election 2017</b></a></td>
+          				</tr>
+			</table>
+	</div-->
+
+  <!-- Slider Start TOPS STORY -->
+  <div class="tbt"><h1 class="title-boxnew">Top News Story</h1></div>
+  <div class="banner_div fl flikrlazy" id="1">
+    <div class="banner">
+      <div class="colB column">
+        <div id="promo" class="module">
+                      <div class="contentBlocks cbg0">
+              <div id="promo_carousel">
+                <div id="carousel_items" class="carousel carousel45" >
+                  <!--<div id="load" style="width:200px; height:200px; display:none"></div>-->
+                                      <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/pm-modi-addressed-asean-india-summit-in-delhi" title="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી" >ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી</a>
+                          <div title="2018-01-25 20:25:48" class="timeago_271597 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271597').html(prettyDate("2018-01-25T20:25:48Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/pm-modi-addressed-asean-india-summit-in-delhi" title="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-pm-modi-addressed-asean-ind.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-pm-modi-addressed-asean-ind.jpg" alt="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી" title="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade1" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/pm-modi-addressed-asean-india-summit-in-delhi"  title="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી">- ભારત-આસિયાન શિખર સમ્મેલનમાં દુનિયાના દેશોની નજર</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/pm-modi-addressed-asean-india-summit-in-delhi"  title="ASEAN સમિટમાં વડાપ્રધાનનું સંબોધન, 10 દેશોના પ્રતિનિધીની ઉપસ્થિતીથી ખુશી વ્યક્ત કરી">- રામાયણ, બૌદ્ધ ધર્મ અને ઇસ્લામના ઇતિહાસથી ભારત આસિયાન દેશોથી જોડાયેલું છે: વડાપ્રધાન</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              ભારત-આસિયાન શિખર સમ્મેલનનો આજથી પ્રારંભ થઇ ચૂ્ક્યો છે. બે દિવસીય ચાલનારા આ સમ્મેલનમાં સામેલ થવા માટે..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/pm-modi-addressed-asean-india-summit-in-delhi" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/exclusive-sonia-gandhi-initiates-opposition-party-meeting-to-decide-budget-session-strategy" title="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી" >મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી</a>
+                          <div title="2018-01-25 17:38:12" class="timeago_271576 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271576').html(prettyDate("2018-01-25T17:38:12Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/exclusive-sonia-gandhi-initiates-opposition-party-meeting-to-decide-budget-session-strategy" title="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-exclusive-sonia-gandhi-init.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-exclusive-sonia-gandhi-init.jpg" alt="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી" title="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade2" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/exclusive-sonia-gandhi-initiates-opposition-party-meeting-to-decide-budget-session-strategy"  title="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી">- કોંગ્રેસની કમાન પુત્રને સોંપ્યા બાદ રાજકારણમાંથી નિવૃત્તિ લેશે તેવી અટકળો પણ વહેતી થઇ હતી</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/exclusive-sonia-gandhi-initiates-opposition-party-meeting-to-decide-budget-session-strategy"  title="મિશન-2019: સરકારને ઘેરવા કોંગ્રેસે કમર કસી, વિપક્ષોને એકત્રીત કરશે સોનિયા ગાંધી">- રાજકીય પાર્ટીઓના ઉચ્ચ નેતૃત્વની સક્રિયતા મિશન લોકસભા સુચવે છે</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              દેશમાં સરકારને ઘેરવા અને આવનારી લોકસભાની ચૂંટણીમાં પોતાની સરકાર રચવા વિપક્ષ હવે એક થશે..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/exclusive-sonia-gandhi-initiates-opposition-party-meeting-to-decide-budget-session-strategy" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/deadbody-outside-postmortam-room" title="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી" >વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી</a>
+                          <div title="2018-01-25 15:05:27" class="timeago_271547 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271547').html(prettyDate("2018-01-25T15:05:27Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/deadbody-outside-postmortam-room" title="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-Screenshot_20180125-115238.jpeg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-Screenshot_20180125-115238.jpeg" alt="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી" title="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade3" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/deadbody-outside-postmortam-room"  title="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી">- વડોદરામાં ગોત્રી હોસ્પિટલમાં બનેલી હાહાકારી ઘટના</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/deadbody-outside-postmortam-room"  title="વડોદરાઃ પોસ્ટમોર્ટમ રૂમની નજીક જ  કૂતરાઓએ લાશને ફાડી ખાધી"></a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              માણસમાં માણસાઇનું પતન કઇ હદે થયુ છે તેનું એક ઘૃણાસ્પદ ઉદાહરણ આજે વડોદરા જેવા શિક્ષિત અને સુસંસ્કૃત શ..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/deadbody-outside-postmortam-room" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/10-asean-country-heads-attend-republic-day-parade-in-india" title="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન" >ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન</a>
+                          <div title="2018-01-25 13:52:23" class="timeago_271552 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271552').html(prettyDate("2018-01-25T13:52:23Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/10-asean-country-heads-attend-republic-day-parade-in-india" title="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-10-asean-country-heads-atte.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-10-asean-country-heads-atte.jpg" alt="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન" title="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade4" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/10-asean-country-heads-attend-republic-day-parade-in-india"  title="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન">- આત્યાર સુધી પ્રજાસત્તાક દિને માત્ર એક દેશના પ્રમુખને બોલાવવની પરંપરા હતી</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/10-asean-country-heads-attend-republic-day-parade-in-india"  title="ASEANના 10 દેશોના પ્રમુખો પ્રજાસત્તાક દિને બનશે ભારતના મહેમાન"></a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              ભારતના ઇતિહાસમાં આવતીકાલે પ્રથમવાર એવું બની રહ્યું છે કે ભારતના રાષ્ટ્રીય પર્વ પ્રજાસત્તાક દિન પર એક..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/10-asean-country-heads-attend-republic-day-parade-in-india" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/googles-doodle-celebrates-virginia-woolf-on-her-136th-birthday" title="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત" >અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત</a>
+                          <div title="2018-01-25 13:02:26" class="timeago_271551 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271551').html(prettyDate("2018-01-25T13:02:26Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/googles-doodle-celebrates-virginia-woolf-on-her-136th-birthday" title="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-googles_doodle_celebrates_virginia_woolf_on_her_136th_birthday.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-googles_doodle_celebrates_virginia_woolf_on_her_136th_birthday.jpg" alt="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત" title="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade5" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/googles-doodle-celebrates-virginia-woolf-on-her-136th-birthday"  title="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત">- એડલિન વર્જિનિયા વુલ્ફનો જન્મ 25 જાન્યુઆરી 1882માં થયો હતો</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/googles-doodle-celebrates-virginia-woolf-on-her-136th-birthday"  title="અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફના જન્મદિવસે આજનું ડુડલ સમર્પિત">- વુલ્ફે ડાયરી, નવલકથા, જીવનચરિત્ર દરેક પ્રકારની રચનાઓ કરી</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              ગુગલે અંગ્રેજી નવલકથાકાર વર્જિનિયા વુલ્ફને તેમના 136માં જન્મદિવસે પર ડુડલ બનાવીને યાદ કર્યા.....                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/googles-doodle-celebrates-virginia-woolf-on-her-136th-birthday" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/police-in-multiplexes-and-theaters" title="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત" >પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત</a>
+                          <div title="2018-01-25 12:49:29" class="timeago_271549 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271549').html(prettyDate("2018-01-25T12:49:29Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/police-in-multiplexes-and-theaters" title="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-LAST_PAGE-26-Giri.JPG" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-LAST_PAGE-26-Giri.JPG" alt="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત" title="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade6" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/police-in-multiplexes-and-theaters"  title="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત">અસામાજીક તત્વો સામે કડક હાથે કામ લેવાશેઃ પોલીસ </a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/police-in-multiplexes-and-theaters"  title="પદ્માવત ફિલ્મ રીલિઝ નહી થાય છતા વડોદરાના સિનેમાગૃહો-મલ્ટિપ્લેકસ પર પોલીસ બંદોબસ્ત"></a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              દેશભરમાં વિવાદ સર્જનાર પદ્માવત ફિલ્મ આવતીકાલે રીલિઝ થનાર છે પરંતુ વડોદરામાં સિનેમાગૃહ અને મલ્ટિપ્લેક..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/police-in-multiplexes-and-theaters" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavaat-karni-sena-tension-prevailed-government-pro-kshatriyans-protested" title="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ" >#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ</a>
+                          <div title="2018-01-25 12:45:42" class="timeago_271548 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271548').html(prettyDate("2018-01-25T12:45:42Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavaat-karni-sena-tension-prevailed-government-pro-kshatriyans-protested" title="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-padmavaat_karni_sena_Tension_prevailed_government_pro_Kshatriyans_protested.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-padmavaat_karni_sena_Tension_prevailed_government_pro_Kshatriyans_protested.jpg" alt="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ" title="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade7" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavaat-karni-sena-tension-prevailed-government-pro-kshatriyans-protested"  title="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ">- બંધમાં નહી જોડાવાના નિર્ણયથી રાજપૂત સંગઠનો નારાજ</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavaat-karni-sena-tension-prevailed-government-pro-kshatriyans-protested"  title="#પદ્માવત : કરણીસેનામાં તડાં પડયાં, સરકાર તરફી ક્ષત્રિયોનો વિરોધ"></a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              ફિલ્મ પદ્માવતના વિરોધમાં કરણીસેનાએ ભારતબંધનું એલાન આપ્યુ..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavaat-karni-sena-tension-prevailed-government-pro-kshatriyans-protested" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/bjp-government-policy-on-padmaavat-tell-the-thief-steal-tell-the-watchman-keep-awake" title="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે" >#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે</a>
+                          <div title="2018-01-25 12:40:09" class="timeago_271546 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271546').html(prettyDate("2018-01-25T12:40:09Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/bjp-government-policy-on-padmaavat-tell-the-thief-steal-tell-the-watchman-keep-awake" title="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-BJP_government_policy_on_padmaavat_tell_the_thief_steal_tell_the_watchman_keep_awake.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-BJP_government_policy_on_padmaavat_tell_the_thief_steal_tell_the_watchman_keep_awake.jpg" alt="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે" title="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade8" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/bjp-government-policy-on-padmaavat-tell-the-thief-steal-tell-the-watchman-keep-awake"  title="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે">- તોફાનીઓ પેટ્રોલ લઇને મોલ-વાહનોને સળગાવતાં રહ્યાં</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/bjp-government-policy-on-padmaavat-tell-the-thief-steal-tell-the-watchman-keep-awake"  title="#પદ્માવતઃ ભાજપ સરકારની નીતિ,ચોરને કહે ચોરી કર, ચોકીદારને કહે,જાગતો રહે">- પોલીસ પાછળ પાછળ માત્ર દેખાવપુરતી દોડતી રહી</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                               ભાજપ સરકારના એકેય મંત્રીએ હરફ સુધ્ધાં ઉચ્ચાર્યો ન હતો..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/bjp-government-policy-on-padmaavat-tell-the-thief-steal-tell-the-watchman-keep-awake" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/horror-on-a-school-bus-in-gurgaon-attack-by-karni-sena-padmaavat" title="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો" >#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો</a>
+                          <div title="2018-01-25 12:33:36" class="timeago_271545 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271545').html(prettyDate("2018-01-25T12:33:36Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/horror-on-a-school-bus-in-gurgaon-attack-by-karni-sena-padmaavat" title="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-horror_on_a_school_bus_in_gurgaon_attack_by_karni_sena_padmaavat.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-horror_on_a_school_bus_in_gurgaon_attack_by_karni_sena_padmaavat.jpg" alt="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો" title="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade9" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/horror-on-a-school-bus-in-gurgaon-attack-by-karni-sena-padmaavat"  title="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો">- નોઈડામાં સ્કૂલબસ ઉપર કરણીસેનાએ વરસાવ્યા પથ્થર</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/horror-on-a-school-bus-in-gurgaon-attack-by-karni-sena-padmaavat"  title="#પદ્માવતના વિરોધમાં કરણી સેના સારા નરસાનું ભાનભુલી: કર્યો સ્કૂલબસ ઉપર હૂમલો">- શાળાએ જતા ભૂલકાં કરી ઉઠ્યા રોકકળ</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              પદ્માવતના વિરોધમાં કરણીસેના સારા નરસાનું ભાન ભૂલી ..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/horror-on-a-school-bus-in-gurgaon-attack-by-karni-sena-padmaavat" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/sultan-of-brunei-hassanal-bolkiah-pm-modi-jumbo-boeing-747-india-indo-asean-meet" title="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા" >બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા</a>
+                          <div title="2018-01-25 11:49:44" class="timeago_271542 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271542').html(prettyDate("2018-01-25T11:49:44Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/sultan-of-brunei-hassanal-bolkiah-pm-modi-jumbo-boeing-747-india-indo-asean-meet" title="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-sultan_of_brunei_hassanal_bolkiah_pm_modi_jumbo_boeing_747_india_indo_asean_meet.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-sultan_of_brunei_hassanal_bolkiah_pm_modi_jumbo_boeing_747_india_indo_asean_meet.jpg" alt="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા" title="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade10" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/sultan-of-brunei-hassanal-bolkiah-pm-modi-jumbo-boeing-747-india-indo-asean-meet"  title="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા">- વડાપ્રધાન નરેન્દ્ર મોદીને મળ્યા સુલતાન હસનલ બોલ્કિયાહ</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/sultan-of-brunei-hassanal-bolkiah-pm-modi-jumbo-boeing-747-india-indo-asean-meet"  title="બ્રુનેઈના સુલતાન 5000 કિમી પ્લેન ઉડાવીને ભારત પહોંચ્યા"></a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              26મી જાન્યુઆરીના કાર્યક્રમમાં ભાગ લેવા માટે બ્રુનેઈના સુલતાન હસનલ 5000 ..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/sultan-of-brunei-hassanal-bolkiah-pm-modi-jumbo-boeing-747-india-indo-asean-meet" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/vadodara-tires-burned-by-rajput-youth-on-halol-road-chakrajjam-was-burnt" title="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું" >વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું</a>
+                          <div title="2018-01-25 11:31:35" class="timeago_271535 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271535').html(prettyDate("2018-01-25T11:31:35Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/vadodara-tires-burned-by-rajput-youth-on-halol-road-chakrajjam-was-burnt" title="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-baroda24.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-baroda24.jpg" alt="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું" title="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade11" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/vadodara-tires-burned-by-rajput-youth-on-halol-road-chakrajjam-was-burnt"  title="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું">- કલાકો સુધી મુખ્ય હાઇવેનો વાહન વ્યવહાર ખોરવાયો</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/vadodara-tires-burned-by-rajput-youth-on-halol-road-chakrajjam-was-burnt"  title="વડોદરા: હાલોલ રોડ પર રાજપૂત યુવાનો દ્વારા ટાયરો સળગાવી ચક્કાજામ કરાયું">- પોલીસ પહોંચતા જ રસ્તો ખુલ્લો કરવામાં આવ્યો</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              ગુજરાત ભરમાં પદ્મવત ફિલ્મનો વિરોધ કરી રહેલા રાજપૂત સંગઠનો દ્વારા ફિલ્મ રીલીઝ અટકાવવા..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/vadodara-tires-burned-by-rajput-youth-on-halol-road-chakrajjam-was-burnt" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                        <dl class="sport sport74">
+                      <div class="wrapper-nil">
+                        <h1>
+                          <a class="line74 fittext1" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavat-finally-release-more-than-7000-screen" title="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ" >#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ</a>
+                          <div title="2018-01-25 11:31:00" class="timeago_271534 nil784"></div>
+                          <script type="text/javascript">$('div.timeago_271534').html(prettyDate("2018-01-25T11:31:00Z"));</script>
+                        </h1>
+
+                        <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavat-finally-release-more-than-7000-screen" title="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ"></a>
+
+                        <div class="newnilcss1">
+
+                          <div class="img gs-nil_1">
+                                                <img src="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-Padmavat_finally_release_more_than_7000_screen.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/300x250-Padmavat_finally_release_more_than_7000_screen.jpg" alt="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ" title="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ" />
+                          </div><!-- img gs-nil_1 End -->
+
+                          <div id="fade12" class="gstext41 gstext87">
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavat-finally-release-more-than-7000-screen"  title="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ">- શું છે વિવાદ ક્યાંથી શરૂ થયો હતો?</a>
+                            </h1>
+
+                            <h1 class="hed74">
+                              <a class="fittext2 ade75" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavat-finally-release-more-than-7000-screen"  title="#પદ્માવત : વિરોધ વચ્ચે પણ સાત હજારથી વધુ સ્ક્રીન ઉપર રિલીઝ">- 27 જાન્યુઆરી 2017ના સંજય લીલા ભણશાલીને પડી હતી થપ્પડ</a>
+                            </h1>
+
+                            <div class="top_slide_desc fittext3">
+                              પદ્માવત વિવાદ દેશભરમાં હાહાકાર મચાવ્યો છે ત્..                            </div>
+
+                            <div class="ind78" style="background-color:#FFF !important">
+                              <a style="margin-top:8px !important" class="adh745" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/padmavat-finally-release-more-than-7000-screen" title="Click for more">More...</a>
+                            </div>
+                          </div><!-- gstext41 End -->
+                        </div><!-- newnilcss1 End -->
+
+                        <script type="text/javascript">
+                          // Hover Fadein FadeOut
+                          /*$(document).ready(function() {
+                           $('.nav_right').css('display','none');
+                           $('.nav_left').css('display','none');
+
+                           $('div.carousel').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           }, function() {
+                           $('.nav_right').delay(100).css('display','none');
+                           $('.nav_left').delay(100).css('display','none');
+                           });
+                           $('div.nav_right,div.nav_left').hover(function() {
+                           $(".nav_right").delay(100).css('display','block');
+                           $('.nav_left').delay(100).css('display','block');
+                           });
+                           });*/
+                        </script>
+                      </div><!-- wrapper-nil End -->
+                    </dl>
+                                    </div><!-- carousel End -->
+              </div><!-- promo_carousel End -->
+            </div><!-- contentBlocks End -->
+            <script type="text/javascript">
+              //$(function() {$('div#carousel_items').delay(2500).fadeIn(); });
+              var carousel = document.getElementById("carousel_items");
+              carousel.style.height = '350px';
+              //carousel.style.width = '676px';
+              carousel.style.overflow = 'hidden';
+              require(["wwhomepage.ui.carouselfactory"], function(carousel) {
+                require.ready(function() {
+                  //$("#load").hide();
+                  //$(".sport").show();
+                  carousel.createCarousel('#carousel_items', {"auto": true, "playPause": true, "effects": "singleRevolution", "speed": 800, "api": true, "controls": "previewNav", "item": "dl", "dispTimeout": 6000, "promoCarousel": true});
+                })
+              });
+
+            </script>
+                    </div><!-- module End -->
+      </div><!-- colB End -->
+    </div><!-- banner End -->
+  </div><!-- banner_div End -->
+  <!-- Slider End -->
+
+
+
+<!-- Middel Advertisement Start -->
+<div class="clear"></div>
+  <div class="clear" style="margin-top:20px;"></div>
+              <div class="box-color-photogallery flikrlazy main-box274" style="clear: both;margin-left:-3px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 24-11-16_300X250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8096200923666860"
+     data-ad-slot="1589031932"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Google_Code_1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8096200923666860"
+     data-ad-slot="4586495139"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>  <div class="clear"></div>
+  <!-- Middel Advertisement END -->
+
+  <!-- SHREE GANESH 2014 -->
+	  		<div class="tbt" style="margin-top:30px;"><h1 class="title-boxnew">Photo Gallery</h1></div>
+		<div class="main-box2 box-color-photogallery flikrlazy c-ViruPhotoGallery">
+		  <div class="list_carousel list_carousel89">
+			<ul id="foo2">
+			  				<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/b736e633213b7c2ab27cb5962cd72fe6.jpg" title="અમદાવાદની વિવિધ શાળા અને કોલેજમાં ૨૬મી જાન્યુઆરીનું સેલિબ્રેશન કરાશે ત્યારે દિવ્યપથ શાળામાં વિદ્યાર્થીઓએ ૨૦ ફૂટના રાષ્ટ્રધ્વજ સાથે ૨૬મીના સેલિબ્રેશનનું રિહર્સલ કર્યું હતું.">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-b736e633213b7c2ab27cb5962cd72fe6.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-b736e633213b7c2ab27cb5962cd72fe6.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">અમદાવાદની વિવિધ શાળા અને કોલેજમાં ૨૬મી જાન્યુઆરીનું સેલિબ્રેશન કરાશે ત્યારે...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/bfcb5e7719e6356e642ffe12ea0904c5.jpg" title="એન્ટાર્કટિક ખંડમાં કિનેર કોવ નામના જળ વિસ્તારમાંથી વિજ્ઞાાનીઓને લાખો વર્ષ જૂના કેટલાક જીવ મળી આવ્યા છે. ફક્ત ૩૦૦ મીટર ઊંડેથી મળેલા આ જીવોમાં (ક્લોક વાઇઝ) એન્ટાર્કટિક ફિધર સ્ટાર, ફેનિયેલા અને સ્ટેરેચિનુસનો સમાવેશ થાય છે.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-bfcb5e7719e6356e642ffe12ea0904c5.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-bfcb5e7719e6356e642ffe12ea0904c5.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">એન્ટાર્કટિક ખંડમાં કિનેર કોવ નામના જળ વિસ્તારમાંથી વિજ્ઞાાનીઓને લાખો વર્ષ...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/bc532d91783d54fdf1e28cde048dbf44.jpg" title="ચાર હજાર વર્ષ જૂનું ચીનનું અન્ડરગ્રાઉન્ડ શહેર
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-bc532d91783d54fdf1e28cde048dbf44.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-bc532d91783d54fdf1e28cde048dbf44.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">ચાર હજાર વર્ષ જૂનું ચીનનું અન્ડરગ્રાઉન્ડ શહેર
+...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/ac7b74e6e4f8ff91d23020389ae6286a.jpg" title="મોનાકોમાં ચાલી રહેલા ૪૨મા ઈન્ટરનેશનલ સર્કસ ફેસ્ટિવલના આખરી તબક્કામાં બિંગો સર્કસની મરીના અને એસ્મિરા નામની ડાન્સરોએ પાવરપેક પર્ફોર્મન્સ આપીને એક કૃતિની રજૂઆત કરી હતી. આ દરમિયાન બંને યુવતીઓના અંગ કસરતના ખેલ જોઈને દર્શકો મ્હોંમાં આંગળા નાંખી ગયા હતા.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-ac7b74e6e4f8ff91d23020389ae6286a.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-ac7b74e6e4f8ff91d23020389ae6286a.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">મોનાકોમાં ચાલી રહેલા ૪૨મા ઈન્ટરનેશનલ સર્કસ ફેસ્ટિવલના આખરી તબક્કામાં બિંગો...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/79ba08b13623fdc1cf16a393f3c735d8.jpg" title="નોર્વેના જોથુનહેમેન પર્વતની આસપાસથી પુરાતત્ત્વવિદેને ઈસ. પૂર્વે ૭૦૦ના સમયના હજારો નમૂના મળી આવ્યા છે. આશરે ૧,૩૦૦ વર્ષ જૂના આ નમૂનામાં યુરોપિયન શિકારી પ્રજાએ બનાવેલા બરફમાં સરકવાની સ્લેજ ગાડીઓ શણના જેકેટ ભાલો તીર અને એક જૂતાનો સમાવેશ થાય છે. પુરાતત્ત્વવિદેનું કહેવું છે કે વિશ્વમાં આ બીજા નંબરના સૌથી જૂના આધુનિક માનવ અવશેષો છે.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-79ba08b13623fdc1cf16a393f3c735d8.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-79ba08b13623fdc1cf16a393f3c735d8.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">નોર્વેના જોથુનહેમેન પર્વતની આસપાસથી પુરાતત્ત્વવિદેને ઈસ. પૂર્વે ૭૦૦ના સમયના હજારો...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/f955942d5deb8fb2cd020721b5e584cd.jpg" title="રશિયાનાં પૂર્વ પ્રમુખ જોસેફ સ્ટાલીનનાં પૂતળાને બર્લિન શહેરમાંથી દૂર કરવામાં આવી રહ્યા છે. જર્મનીના બર્લિન શહેરમાં આવેલા સ્ટાલીનના તમામ પૂતળાને એકત્રિત કરીને તેમનું પ્રદર્શન યોજવામાં આવશે. સ્ટાલીન ધ રેડ ગોડ નામના આ પ્રદર્શનને સ્થાનિક વહીવટી તંત્ર દ્વારા યોજવામાં આવી રહ્યું છે.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-f955942d5deb8fb2cd020721b5e584cd.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-f955942d5deb8fb2cd020721b5e584cd.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">રશિયાનાં પૂર્વ પ્રમુખ જોસેફ સ્ટાલીનનાં પૂતળાને બર્લિન શહેરમાંથી દૂર કરવામાં...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/65234c6b891dee442fd6296750551724.jpg" title="પદ્માવત ફિલ્મના વિરોધમાં અમદાવાદની ઘટનાઓ બાદ બુધવારે તમામ ઘટના સ્થળો પર પોલીસ તેમજ રેપીડ એકશન ફોર્સનો ચુસ્ત બંદોબસ્ત ગોઠવી દેવાયો હતો.">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-65234c6b891dee442fd6296750551724.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-65234c6b891dee442fd6296750551724.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">પદ્માવત ફિલ્મના વિરોધમાં અમદાવાદની ઘટનાઓ બાદ બુધવારે તમામ ઘટના સ્થળો...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/dc7ad0e51b3acfb61ac2a398cb82741e.jpg" title="પદ્માવત ફિલ્મના વિરોધમાં બુધવારે ગાંધીનગર પાસે આવેલા વાવોલ ગામથી ઉવારસદ તરફ જવાના રોડ પર તોફાની ટોળાઓએ ઝાડી- ઝાંખરાઓ અને ટાયરો સળગાવી બંધ કરી દીધો હતો. ચક્કાજામ થઈ થવાના કારણે વાહનો અટવાઈ  પડયા હતા.">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-dc7ad0e51b3acfb61ac2a398cb82741e.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-dc7ad0e51b3acfb61ac2a398cb82741e.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">પદ્માવત ફિલ્મના વિરોધમાં બુધવારે ગાંધીનગર પાસે આવેલા વાવોલ ગામથી ઉવારસદ...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/a947762b45e3e629544851f4ece65d20.jpg" title="સ્વિત્ઝર્લેન્ડના દાવોસમાં આયોજિત વર્લ્ડ ઈકોનોમિક ફોરમમાં હજારો લોકોએ અમેરિકન પ્રમુખ ડોનાલ્ડ ટ્રમ્પની હાજરી વિરુદ્ધ ઉગ્ર વિરોધ પ્રદર્શન કર્યા હતા. વિશ્વની અનેક સ્વૈચ્છિક સંસ્થાઓના કાર્યકરોએ દાવોસમાં એકજૂટ થઈને ટ્રમ્પની યુદ્ધખોર માનસિકતા પર્યાવરણ વિરોધી નીતિઓ અને રંગભેદી નિવેદનો કરવા બદલ તેમને અમેરિકા પાછા જાઓ ના બેનરો બતાવ્યા હતા.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-a947762b45e3e629544851f4ece65d20.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-a947762b45e3e629544851f4ece65d20.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">સ્વિત્ઝર્લેન્ડના દાવોસમાં આયોજિત વર્લ્ડ ઈકોનોમિક ફોરમમાં હજારો લોકોએ અમેરિકન પ્રમુખ...</span>
+				</li>
+								<li>
+				  <a class="photo_of_the_day_gallery" href="http://www.gujaratsamachar.com/uploads/gallery_photo_of_the_day/b8c20f98d08a86feeb44c7bf0720f383.jpg" title="વસંતપંચમીના લગ્નો નથી તે વાતનો છેદ ઉડાવતા અનેક લગ્ને શહેરમાં જોવા મળ્યા હતા. સેટેલાઇટ ખાતેના એક પાર્ટી પ્લોટમાં પાટીદાર સમાજના સમૂહલગ્ન યોજાયા હતા જેમાં પાટીદાર યુવતીઓએ લગ્ન પહેલાં આગવી અદામાં ગુ્રપ ફોટો પડાવ્યો હતો.
+">
+
+
+					          <img class="nil-ph"  src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-b8c20f98d08a86feeb44c7bf0720f383.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-b8c20f98d08a86feeb44c7bf0720f383.jpg"/>
+
+
+				  </a>
+				  <span class="fittext3" style="text-align:justify;">વસંતપંચમીના લગ્નો નથી તે વાતનો છેદ ઉડાવતા અનેક લગ્ને શહેરમાં...</span>
+				</li>
+							</ul>
+			<div class="clearfix"></div>
+			<div class="top-hit-vir-nil">
+			  <a id="next2" class="next" href="#">&nbsp;</a>
+			  <a id="prev2" class="prev" href="#">&nbsp;</a>
+			  <div id="pager2" class="pager"></div>
+			</div>
+			<a class="more-mr" href="http://www.gujaratsamachar.com/index.php/gs_photo" title="Click for More" style="color:#A90329; font-weight:bold; text-align:right;margin-top: 7px;">More Photos...</a>
+		  </div><!-- List_carousel End -->
+		</div><!-- Main-box2 End -->
+			  <!-- SHREE GANESH 2014,2015 -->
+
+
+  <div class="clear" style="margin-bottom:20px;" ></div>
+    <!-- Photo Story Albums -->
+  <div class="tbt"><h1 class="title-boxnew" style="font-size:18px;">Slide Shows</h1></div>
+  <div class="main-box2 box-color-photogallery flikrlazy c-ViruPhotoGallery">
+    <div class="list_carousel list_carousel89">
+      <ul id="foo_img" class="img-border789">
+                  <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-6.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-6.jpg" alt="તમે કયારેય રેઈનબો માઉન્ટેઈન જોયા છે?" title="તમે કયારેય રેઈનબો માઉન્ટેઈન જોયા છે?"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/the-ausangate-rainbow-mountains-of-peru" class="foo-link87 foo-link8775 fittext3">તમે કયારેય રેઈનબો માઉન્ટેઈન જોયા છે?</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-Hollywood_six_non_famous_person_celebrity_romance.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-Hollywood_six_non_famous_person_celebrity_romance.jpg" alt="હોલીવૂડની છ સેલિબ્રિટી જે સામાન્ય વ્યક્તિને દિલ દઈ બેઠી" title="હોલીવૂડની છ સેલિબ્રિટી જે સામાન્ય વ્યક્તિને દિલ દઈ બેઠી"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/hollywood-six-non-famous-person-celebrity-romance" class="foo-link87 foo-link8775 fittext3">હોલીવૂડની છ સેલિબ્રિટી જે સામાન્ય વ્યક્તિને દિલ દઈ બેઠી</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-main.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-main.jpg" alt="ગુજરાતના વર્તમાન કરોડપતિ ધારાસભ્યોનો ચિતાર" title="ગુજરાતના વર્તમાન કરોડપતિ ધારાસભ્યોનો ચિતાર"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/gujarats-crorepatis-mlas" class="foo-link87 foo-link8775 fittext3">ગુજરાતના વર્તમાન કરોડપતિ ધારાસભ્યોનો ચિતાર</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-11.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-11.jpg" alt="એક સ્પેલિંગ મિસ્ટેકે કરી દીધો અર્થનો અનર્થ" title="એક સ્પેલિંગ મિસ્ટેકે કરી દીધો અર્થનો અનર્થ"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/funny-photos-funny-spelling-mistake-photos-made-in-china" class="foo-link87 foo-link8775 fittext3">એક સ્પેલિંગ મિસ્ટેકે કરી દીધો અર્થનો અનર્થ</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-mc_chagla_11.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-mc_chagla_11.jpg" alt="સૌપ્રથમ 1965માં BHUનું નામ બદલવાનો થયો હતો પ્રયત્ન" title="સૌપ્રથમ 1965માં BHUનું નામ બદલવાનો થયો હતો પ્રયત્ન"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/drop-muslim-from-amu-hindu-from-bhu-suggests-ugc" class="foo-link87 foo-link8775 fittext3">સૌપ્રથમ 1965માં BHUનું નામ બદલવાનો થયો હતો પ્રયત્ન</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-a1.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-a1.jpg" alt="શું તમે જાણો છો બચ્ચનના આ કિસ્સા ?" title="શું તમે જાણો છો બચ્ચનના આ કિસ્સા ?"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/amitabh-bachchan-birthday-special" class="foo-link87 foo-link8775 fittext3">શું તમે જાણો છો બચ્ચનના આ કિસ્સા ?</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-6.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-6.jpg" alt="સુપરસ્ટાર હતા આ એક્ટર: એક સમયે અમિતાભ અને ધર્મેન્દ્રથી વધારે હતી કમાણી" title="સુપરસ્ટાર હતા આ એક્ટર: એક સમયે અમિતાભ અને ધર્મેન્દ્રથી વધારે હતી કમાણી"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/vetren-actor-mehmood-fees-was-high-then-amitabh-bachchan-dharmendra-tmov" class="foo-link87 foo-link8775 fittext3">સુપરસ્ટાર હતા આ એક્ટર: એક સમયે અમિતાભ અને ધર્મેન્દ્રથી વધારે હતી કમાણી</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-kolkata_pandal.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-kolkata_pandal.jpg" alt="દુર્ગાપૂજા નિમિત્તે કલકત્તામાં આબેહૂબ થાઈલેન્ડ જેવો નજારો જોઈ શકાશે" title="દુર્ગાપૂજા નિમિત્તે કલકત્તામાં આબેહૂબ થાઈલેન્ડ જેવો નજારો જોઈ શકાશે"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/navratri-2017-wat-rong-khun-or-white-temple-of-thailand-theme-based-pandal-at-deshapriya-park" class="foo-link87 foo-link8775 fittext3">દુર્ગાપૂજા નિમિત્તે કલકત્તામાં આબેહૂબ થાઈલેન્ડ જેવો નજારો જોઈ શકાશે</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-navratri_2017_maa_durga_devi_temples_in_muslims_countries_51_saktipith.gif" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-navratri_2017_maa_durga_devi_temples_in_muslims_countries_51_saktipith.gif" alt="જાણો છો મુસ્લીમ દેશોમાં પણ છે મા આદ્યશક્તિની શક્તિપીઠ?" title="જાણો છો મુસ્લીમ દેશોમાં પણ છે મા આદ્યશક્તિની શક્તિપીઠ?"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/navratri-2017-maa-durga-devi-temples-in-muslims-countries-51-saktipith" class="foo-link87 foo-link8775 fittext3">જાણો છો મુસ્લીમ દેશોમાં પણ છે મા આદ્યશક્તિની શક્તિપીઠ?</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-main.gif" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-main.gif" alt="ભારતમાં પાંચ જગ્યાએ દશાનંદ રાવણની થાય છે પૂજા" title="ભારતમાં પાંચ જગ્યાએ દશાનંદ રાવણની થાય છે પૂજા"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/5-places-in-india-where-ravana-worship-navratri-dussehra-2017" class="foo-link87 foo-link8775 fittext3">ભારતમાં પાંચ જગ્યાએ દશાનંદ રાવણની થાય છે પૂજા</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-1.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-1.jpg" alt="ફેસબુક પર વાયરલ થઈ હનીપ્રીતની જુદા-જુદા લુકવાળી તસવીરો" title="ફેસબુક પર વાયરલ થઈ હનીપ્રીતની જુદા-જુદા લુકવાળી તસવીરો"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/photoshoped-photos-of-honeypreet-viral-on-facebook" class="foo-link87 foo-link8775 fittext3">ફેસબુક પર વાયરલ થઈ હનીપ્રીતની જુદા-જુદા લુકવાળી તસવીરો</a>
+          </li>
+                    <li>
+            <a href="http://www.gujaratsamachar.com/index.php/photo/" class="testnone784" >
+                              <center>
+
+
+
+            <img class="imed8754" align="middle" src="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-know_about_pm_narendra_modi_cabinet_reshuffle_new_cabinet_minister.jpg" data-original="http://www.gujaratsamachar.com/thumbprocessor/cache/250x250-know_about_pm_narendra_modi_cabinet_reshuffle_new_cabinet_minister.jpg" alt="જાણો નવા કેબિનેટ મંત્રી કોણ છે અને ક્યા હતા આ પહેલા?" title="જાણો નવા કેબિનેટ મંત્રી કોણ છે અને ક્યા હતા આ પહેલા?"/>
+
+
+                </center>
+                            </a>
+            <a href="http://www.gujaratsamachar.com/index.php/photo_slide_show/know-about-pm-narendra-modi-cabinet-reshuffle-new-cabinet-minister" class="foo-link87 foo-link8775 fittext3">જાણો નવા કેબિનેટ મંત્રી કોણ છે અને ક્યા હતા આ પહેલા?</a>
+          </li>
+                </ul>
+      <div class="clearfix"></div>
+      <div class="top-hit-vir-nil">
+        <a id="next_img" class="next" href="#">&nbsp;</a>
+        <a id="prev_img" class="prev" href="#">&nbsp;</a>
+        <div id="pager_img" class="pager"></div>
+      </div>
+      <a class="more-mr" href="http://www.gujaratsamachar.com/index.php/photo" title="" style="color:#A90329; font-weight:bold; text-align:right; float:right; padding:10px; width:auto;">More Slide Shows...</a>
+    </div><!-- List_carousel End -->
+  </div><!-- Main-box2 End -->
+
+  <script type="text/javascript">
+    $(function() {
+      //	Scrolled by user interaction
+      $('#foo_img').carouFredSel({
+        prev: '#prev_img',
+        next: '#next_img',
+        pagination: "#pager_img",
+        auto: false
+      });
+    });
+  </script>
+
+  <div class="clear"></div>
+    <!-- <div style="margin-top:10px;float:left;margin-left:-2px;margin-bottom:-28px; " >
+    		<a href="#"><img  src="http://www.gujaratsamachar.com//pages/images/election.jpg" data-original="http://www.gujaratsamachar.com//pages/images/election.jpg" width="677"/></a>
+    	</div> -->
+
+  <!-- CITY NEWS TAB -->
+  <div class="clear"></div>
+  <div class="main-box2 flikrlazy main-box274" >
+    <div class="newtab newtab47" >
+      <span class="leftnewn"></span>
+      <span class="leftnewn1 leftnewn1nb fr" ></span>
+    </div><!-- newtab End -->
+
+    <div class='jqxWidget'>
+      <div class="widget74" >
+        <div id="swapload" align="center"><img title='Loading Articles please Wait...' src='http://www.gujaratsamachar.com/images/loading/loading42.gif' alt='Loading Articles please Wait...' /></div>
+        <div id='jqxTabs' class='jqx-rc-all c-VirusNewTabs'>
+                      <ul class="city_ul fr" >
+              <b class="citynews citynews74">City News</b>
+                              <li onclick="change_city_tab(1);" class="city_li none784" id="city_li_1" style='margin-left:10px;'>Ahmedabad</li>
+                                <li onclick="change_city_tab(2);" class="city_li none784" id="city_li_2" >Baroda</li>
+                                <li onclick="change_city_tab(3);" class="city_li none784" id="city_li_3" >Surat</li>
+                                <li onclick="change_city_tab(4);" class="city_li none784" id="city_li_4" >Rajkot</li>
+                                <li onclick="change_city_tab(5);" class="city_li none784" id="city_li_5" >Bhuj</li>
+                                <li onclick="change_city_tab(6);" class="city_li none784" id="city_li_6" >Kheda-Anand</li>
+                                <li onclick="change_city_tab(7);" class="city_li none784" id="city_li_7" >North Gujarat</li>
+                                <li onclick="change_city_tab(8);" class="city_li none784" id="city_li_8" >Bhavnagar</li>
+                                <li onclick="change_city_tab(43);" class="city_li none784" id="city_li_43" >Gandhinagar</li>
+                            </ul>
+                          <div class="content-container"><div id="text_1"></div></div>
+                            <div class="content-container"><div id="text_2"></div></div>
+                            <div class="content-container"><div id="text_3"></div></div>
+                            <div class="content-container"><div id="text_4"></div></div>
+                            <div class="content-container"><div id="text_5"></div></div>
+                            <div class="content-container"><div id="text_6"></div></div>
+                            <div class="content-container"><div id="text_7"></div></div>
+                            <div class="content-container"><div id="text_8"></div></div>
+                            <div class="content-container"><div id="text_43"></div></div>
+                      </div><!-- jqxTabs End -->
+      </div><!-- jqxWidget First view End -->
+    </div><!-- jqxWidget End -->
+  </div><!-- main-box2 End -->
+  <script type="text/javascript">
+              function change_city_tab(city_id) { //alert(city_id);
+                var cnt = city_id;
+                //alert(cnt[1])
+                if (cnt != '')
+
+
+                {  	//alert($('#text_'+cnt[1]).html());
+                  if ($('#text_' + cnt).html() == '')
+                  {
+                    $.ajax({
+                      type: "post",
+                      url: "http://www.gujaratsamachar.com/index.php/static_page/get_city_news/2/" + cnt,
+                      beforeSend: function() {
+                        $('#text_' + cnt).html("<div align='center'><img title='Loading Articles please Wait...' src='http://www.gujaratsamachar.com/images/loading/loading42.gif' alt='Loading Articles please Wait...' /></div>");
+                      },
+                      success: function(msg1) {
+                        $('#text_' + cnt).html('');
+                        $('#text_' + cnt).html(msg1);
+                      }
+                    });
+                  }
+                }
+                else
+                {
+                  $('#text_' + cnt).html('');
+                }
+              }
+              //Default First Page data display active
+              $(function() {
+                $.ajax({
+                  type: "post",
+                  url: "http://www.gujaratsamachar.com/index.php/static_page/get_city_news/2/1",
+                  beforeSend: function() {
+                    $('ul.city_ul b').css("display", "none");
+                    $('ul.city_ul li').css("display", "none");
+                    $('#swapload').css("display", "none");
+                    $('#text_1').html("<div align='center'><img title='Loading Articles please Wait...' src='http://www.gujaratsamachar.com/images/loading/loading42.gif' alt='Loading Articles please Wait...' /></div>");
+                  },
+                  success: function(msg1) {
+                    $('ul.city_ul b').css("display", "inline");
+                    $('ul.city_ul li').css("display", "inline");
+                    $('#text_1').html('');
+                    $('#text_1').html(msg1);
+                  }
+                });
+              });
+  </script>
+  <!-- END CITY NEWS TAB -->
+
+  <div class="clear"></div>
+  <!-- Adv Section -->
+  <div class="add-mid flikrlazy flikrlazy74" >
+        <!-- END TOP Latest News Slider -->
+  </div>
+  <div class="add-mid flikrlazy flikrlazy74"></div>
+  <div class="clear"></div>
+  <!-- End Adv Section -->
+
+   <script type="text/javascript">
+	  $.noConflict();
+	</script>
+
+<!-- ENTERTAINMENT And Sports Slider -->
+
+  <!-- Start Sports Slider -->
+    <!-- END ENTERTAINMENT And Sports Slider -->
+
+ <div style="margin-bottom:20px;" class="clear"></div>
+
+
+
+  <!-- Main Category NEWS TAB -->
+  <div class="clear"></div>
+  <div class="main-box2 flikrlazy main-box274" style="margin-top:15px !important;" >
+    <div class="newtab newtab47" >
+      <span class="leftnewn"></span>
+      <span class="leftnewn1 leftnewn1nb fr" ></span>
+    </div><!-- newtab End -->
+
+    <div class='jqxWidget'>
+      <div class="widget74" >
+
+        <div id='jqxMainCatTabs' class='jqx-rc-all c-VirusNewTabs'>
+                      <ul class="city_ul fr" >
+              <b class="citynews citynews74">Main Category News</b>
+			  						<li class="u-ChangeManinCatTab city_li none784 u-TabSelected" data-id="7" style='margin-left:10px;'>Entertainment</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="3" >National</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="4" >International</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="5" >Business</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="6" >Sports</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="30" >Lifestyle</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="32" >Relationship</li>
+											<li class="u-ChangeManinCatTab city_li none784 " data-id="16" >Mumbai</li>
+					            </ul>
+            					  <div class="content-container">
+						<div id="maincattext_7">
+						  							<div align='center'><img title='Loading Articles please Wait...' src='http://www.gujaratsamachar.com/images/loading/loading42.gif' alt='Loading Articles please Wait...' /></div>
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_3">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_4">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_5">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_6">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_30">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_32">
+						  						</div>
+					  </div>
+					  					  <div class="content-container">
+						<div id="maincattext_16">
+						  						</div>
+					  </div>
+					          </div><!-- jqxTabs End -->
+      </div><!-- jqxWidget First view End -->
+    </div><!-- jqxWidget End -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#jqxMainCatTabs').jqxTabs({ width: 675, theme: '', selectionTracker: true, animationType: 'fade' });
+			$('#jqxMainCatTabs li').on("click", function (e) {
+				var $this = $(this),
+					$id = $this.attr("data-id"),
+					$content = $('#maincattext_' + $id);
+				if (!$content.hasClass("u-loaded")) {
+                    $.ajax({
+                      type: "post",
+                      url: "http://www.gujaratsamachar.com/index.php/static_page/get_main_category_news/" + $id,
+                      beforeSend: function() {
+                        $content.html("<div align='center'><img title='Loading Articles please Wait...' src='http://www.gujaratsamachar.com/images/loading/loading42.gif' alt='Loading Articles please Wait...' /></div>");
+                      },
+                      success: function(msg1) {
+                       $content.html(msg1).addClass("u-loaded");
+                      }
+                    });
+                  }
+				return false;
+			});
+			$('#jqxMainCatTabs li').first().trigger("click");
+		});
+	</script>
+  </div><!-- main-box2 End -->
+
+
+  <div class="clear"></div>
+
+  <!-- Start Image Gallery Tab -->
+  <!-- Start Sports Slider -->
+    <!-- End Image Gallery Tab -->
+  <!-- Start Video Gallery Tab -->
+    <!-- End Video Gallery Tab -->
+
+
+  <!-- End Photo Story Albums -->
+  <div class="clear"></div>
+
+  <!-- magazines block here -->
+	<div class="tbt"><h1 class="title-boxnew">Magazines</h1></div>
+		<div class="main-box2 c-Magazines-Box-Main">
+		  <div class="c-Magazines-Box">
+			<ul class="c-Magazines-Lists">
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/ravi-purti" title="Ravi Purti"><img class="c-Magazines-Image"  src="/pages/images/pr0.png" title="Ravi Purti" alt="Ravi Purti" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/business-plus" title="Business Plus"><img class="c-Magazines-Image"  src="/pages/images/pr1.png" title="Business Plus" alt="Business Plus" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/sahiyar" title="Sahiyar"><img class="c-Magazines-Image"  src="/pages/images/pr2.png" title="Sahiyar" alt="Sahiyar" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/shatdal" title="Shatdal"><img class="c-Magazines-Image"  src="/pages/images/pr3.png" title="Shatdal" alt="Shatdal" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/dharmlok" title="Dharmlok"><img class="c-Magazines-Image"  src="/pages/images/pr4.png" title="Dharmlok" alt="Dharmlok" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/chitralok" title="Chitralok"><img class="c-Magazines-Image"  src="/pages/images/pr5.png" title="Chitralok" alt="Chitralok" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/zagmag" title="Zagmag"><img class="c-Magazines-Image"  src="/pages/images/pr6.png" title="Zagmag" alt="Zagmag" /></a></li>
+				<li class="c-Magazines-List"><a class="c-Magazines-Link" href="/index.php/page/gujarat-samachar-plus" title="Gujarat Samachar Plus"><img class="c-Magazines-Image"  src="/pages/images/pr7.png" title="Gujarat Samachar Plus" alt="Gujarat Samachar Plus" /></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+  <!-- Adv Section -->
+  <div class="add-botttom flikrlazy cnl74" >
+        <!-- END TOP Latest News Slider -->
+  </div>
+  <div class="clear"></div>
+  <!-- End Adv Section -->
+</div>
+<!-- Content End -->
+
+
+<!-- script for squeezing text start -->
+<script type="text/javascript">
+  $(".fittext1").fitText(1.1, {minFontSize: 21, maxFontSize: '25px'});
+  $(".fittext2").fitText(1.1, {minFontSize: 14, maxFontSize: '17px'});
+  $(".fittext3").fitText(1.1, {minFontSize: 12, maxFontSize: '14px'});
+</script>
+<!-- script for squeezing text end --><!--script type="text/javascript" src="http://www.gujaratsamachar.com/swfobject_modified.js"></script-->
+<!-- Right Section-->
+<div class="ad_page cont74" id="sidebar">
+<style type="text/css">
+  .style4{ font-size:14px; font-weight:bold; }
+  .margintop74 a img{ height:205px !important; width:100% !important;}
+  #owo-banner-bottom{margin-top:15px !important;}
+</style>
+	<div class="sidebar-searchbox">
+	 <div class="search-box">
+			<!--<input name="" value="Search" type="text" class="hed-textbox">
+			<input name="" value="" type="button" class="hed-search-btn" onBlur="">-->
+			<b>FOLLOW</b>
+
+	<a href="http://www.facebook.com/gujarat.samachar.news" target="_blank"><img src="http://gujaratsamachar.com/pages/images/facebook_gs.png" data-original="http://gujaratsamachar.com/pages/images/facebook_gs.png" alt="" title="GujaratSamachar Facebook" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="http://twitter.com/gujratsamachar" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/twitter_gs.png" data-original="http://gujaratsamachar.com/pages/images/twitter_gs.png" alt="" title="GujaratSamachar Twitter" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://www.youtube.com/GujaratSamacharVideo" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/youtube_gs.png" data-original="http://gujaratsamachar.com/pages/images/youtube_gs.png" alt="" title="GujaratSamachar Youtube" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://plus.google.com/+GujaratSamacharAhmedabad/posts" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/google_plus_gs.png" data-original="http://gujaratsamachar.com/pages/images/google_plus_gs.png" alt="" title="GujaratSamachar Google Plus" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://instagram.com/gujratsamachar/" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_instagram.png" data-original="http://gujaratsamachar.com/pages/images/icon_instagram.png" alt="" title="GujaratSamachar Instagram" align="ABSMIDDLE"></a>
+	<a href="https://in.pinterest.com/gujratsamachar/" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_pinterest.png" data-original="http://gujaratsamachar.com/pages/images/icon_pinterest.png" alt="" title="GujaratSamachar Pinterest" align="ABSMIDDLE"></a>
+	<a href="https://soundcloud.com/gujaratsamachar" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_soundcloud.png" data-original="http://gujaratsamachar.com/pages/images/icon_soundcloud.png" alt="" title="GujaratSamachar SoundCloud" align="ABSMIDDLE"></a>
+	<a href="http://gujaratsamachar.com/index.php/rss" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/Rss-feed.svg" data-original="http://gujaratsamachar.com/pages/images/Rss-feed.svg" alt="" title="GujaratSamachar RSS FEED" align="ABSMIDDLE"></a>
+<!--
+<script>
+  function chksrc()
+  {
+    var tempval = document.srcbox.q.value;
+    //alert(tempval);
+    //tempval = tempval.replace(/<script>|<\/script>|alert/gi,"");
+    //tempval = tempval.replace(/[^a-zA-Z0-9]/gi,'');
+    tempval = tempval.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+    //alert(tempval);
+    document.srcbox.q.value = tempval;
+    document.forms.srcbox.submit();
+  }
+</script>
+<form action="http://www.gujaratsamachar.com/index.php/articles/search" id="cse-search-box" name="srcbox">
+  <input type="hidden" name="cx" value="partner-pub-017491117100124016423:WMX1945996790" />
+  <input type="hidden" name="cof" value="FORID:10" />
+  <input type="hidden" name="ie" value="UTF-8" />
+  <!--<input type="text" name="q" size="31" class="hed-textbox" title="san" onblur="if (this.value == '') {this.value = 'Search';}"
+  onfocus="if(this.value == 'Search') {this.value = '';}" />
+  <input type="text" name="q" size="31" class="hed-textbox" title="Search GujaratSamachar" placeholder="Search GujaratSamachar"/>
+  <input type="button" class="hed-search-btn" value="&nbsp;" name="sa" onclick="chksrc();" />
+</form-->		</div>
+	</div>
+
+    <div>
+
+	<a href="http://www.jalsomusic.com/download.aspx" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1511172574_Jalso-Banner-Ad-300-x-250-2.jpg" style="width: 300px; height: 250px; margin: 1px;" /></a>
+  </div>
+
+
+
+    <div class="tbt"><h1 class="title-boxnew">Top Read News</h1></div>
+      <div class="main-box1 trending-box3 trending-box74 flikrlazy flikrlazy745">
+      <div id="features">
+                  <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/44-arrested-in-ahmedabad-for-rioting-fire-brigade" title="અમદાવાદમાં તોફાનો, આગચંપી મામલે ૪૪ આરોપીની ધરપકડ">અમદાવાદમાં તોફાનો, આગચંપી મામલે ૪૪ આરોપીની ધરપકડ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/44-arrested-in-ahmedabad-for-rioting-fire-brigade"  title="અમદાવાદમાં તોફાનો, આગચંપી મામલે ૪૪ આરોપીની ધરપકડ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/arrest_146_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/arrest_146_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">પદ્માવત ફિલ્મ રિલીઝ થયા પહેલા જ કરણી સેના દ્રારા પુર્વયોજીત..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/44-arrested-in-ahmedabad-for-rioting-fire-brigade" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padmawat-is-given-green-signal-in-pakistan-will-release-tomorrow" title="#પદ્માવત : પાકિસ્તાનમાં પદ્માવતને હરી ઝંડી">#પદ્માવત : પાકિસ્તાનમાં પદ્માવતને હરી ઝંડી..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padmawat-is-given-green-signal-in-pakistan-will-release-tomorrow"  title="#પદ્માવત : પાકિસ્તાનમાં પદ્માવતને હરી ઝંડી">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PADMA-PAK_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PADMA-PAK_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">ટોચના ફિલ્મ સર્જક સંજય લીલા ભણસાલીની ફિલ્મ પદ્માવત રજૂ થવા..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padmawat-is-given-green-signal-in-pakistan-will-release-tomorrow" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-spite-of-terror-in-the-city-the-police-continued-to-see-how-tired-spectators-were" title="શહેરમાં આતંક છતાં પોલીસ કેમ મૂક પ્રેક્ષક બનીને તમાશો જોતી રહી">શહેરમાં આતંક છતાં પોલીસ કેમ મૂક પ્રેક્ષક બનીને તમાશો જોતી..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-spite-of-terror-in-the-city-the-police-continued-to-see-how-tired-spectators-were"  title="શહેરમાં આતંક છતાં પોલીસ કેમ મૂક પ્રેક્ષક બનીને તમાશો જોતી રહી">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-125_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-125_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">પદ્માવત ફિલ્મના વિરોધમાં હિંસક ટોળાએ પશ્ચિમ અમદાવાદને બાનમાં લીધું હતું...</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-spite-of-terror-in-the-city-the-police-continued-to-see-how-tired-spectators-were" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/gujarat-s-bus-driver-who-saved-the-lives-of-pilgrims-and-pilgrims-is-known-as-uttam-jeevan-" title="બાવન અમરનાથા યાત્રીઓના જીવ બચાવનારા ગુજરાતના બસ ડ્રાઇવરને 'ઉત્તમ જીવન રક્ષક પદક'">બાવન અમરનાથા યાત્રીઓના જીવ બચાવનારા ગુજરાતના બસ ડ્રાઇવરને 'ઉત્તમ જીવન..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/gujarat-s-bus-driver-who-saved-the-lives-of-pilgrims-and-pilgrims-is-known-as-uttam-jeevan-"  title="બાવન અમરનાથા યાત્રીઓના જીવ બચાવનારા ગુજરાતના બસ ડ્રાઇવરને 'ઉત્તમ જીવન રક્ષક પદક'">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/AMAR2_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/AMAR2_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">
+આતંકી હુમલા સમયે બાવન અમરનાથ યાત્રીઓના પ્રાણ બચાવવા બદલ ગુજરાતના..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/gujarat-s-bus-driver-who-saved-the-lives-of-pilgrims-and-pilgrims-is-known-as-uttam-jeevan-" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/women-s-suicidal-bomber-in-kashmir-on-the-republican-day" title="પ્રજાસત્તાક દિવસે કાશ્મીરમાં મહિલા આત્મઘાતી બોમ્બર ત્રાટકે તેવી શક્યતા">પ્રજાસત્તાક દિવસે કાશ્મીરમાં મહિલા આત્મઘાતી બોમ્બર ત્રાટકે તેવી શક્યતા..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/women-s-suicidal-bomber-in-kashmir-on-the-republican-day"  title="પ્રજાસત્તાક દિવસે કાશ્મીરમાં મહિલા આત્મઘાતી બોમ્બર ત્રાટકે તેવી શક્યતા">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/2610_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/2610_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">કાશ્મીર બહારથી આવેલી એક મહિલા આત્મઘાતી બોમ્બર પ્રજાસત્તાક દિવસે કાશ્મીણ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/women-s-suicidal-bomber-in-kashmir-on-the-republican-day" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/mns-support-and-government-protection-for-padmavat-" title="'પદમાવત' ફિલ્મને મનસેનું સમર્થન અને સરકારનું રક્ષણ">'પદમાવત' ફિલ્મને મનસેનું સમર્થન અને સરકારનું રક્ષણ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/mns-support-and-government-protection-for-padmavat-"  title="'પદમાવત' ફિલ્મને મનસેનું સમર્થન અને સરકારનું રક્ષણ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/BHAN2_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/BHAN2_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">વિવાદના વંટોળ અને વિરોધની આગ જગાવનારી 'પદમાવત' ફિલ્મ આવતી કાલે..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/mns-support-and-government-protection-for-padmavat-" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/united-nations-team-crashes-before-reaching-the-court-the-court-stayed-the-arrest-of-h" title="સંયુક્ત રાષ્ટ્રની ટીમ પાક. પહોંચે તે પહેલાં જ કોર્ટે હાફિઝની ધરપકડ સામે રોક લગાવી">સંયુક્ત રાષ્ટ્રની ટીમ પાક. પહોંચે તે પહેલાં જ કોર્ટે હાફિઝની..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/united-nations-team-crashes-before-reaching-the-court-the-court-stayed-the-arrest-of-h"  title="સંયુક્ત રાષ્ટ્રની ટીમ પાક. પહોંચે તે પહેલાં જ કોર્ટે હાફિઝની ધરપકડ સામે રોક લગાવી">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/HAFIZ1_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/HAFIZ1_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">પાકિસ્તાનમાં મુંબઇ હુમલાના માસ્ટરમાઇન્ડ હાફિઝ સઇદની ધરપકડ કરવા પર લાહોર..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/united-nations-team-crashes-before-reaching-the-court-the-court-stayed-the-arrest-of-h" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/congress-blames-bjp-for-accepting-rufet-policy-after-getting-hands-with-shiv-sena" title="શિવસેના સાથે હાથ મેળવીને ભાજપે રૃફટોપ પોલીસી મંજૂર કરાવી હોવાનો કોંગ્રેસનો આક્ષેપ">શિવસેના સાથે હાથ મેળવીને ભાજપે રૃફટોપ પોલીસી મંજૂર કરાવી હોવાનો..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/congress-blames-bjp-for-accepting-rufet-policy-after-getting-hands-with-shiv-sena"  title="શિવસેના સાથે હાથ મેળવીને ભાજપે રૃફટોપ પોલીસી મંજૂર કરાવી હોવાનો કોંગ્રેસનો આક્ષેપ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/congress-1_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/congress-1_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">મોલ, બિન નિવાસી ઇમારતના ટેરેસ પર હોટેલ શરૃ કરવાની શિવસેનાએ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/congress-blames-bjp-for-accepting-rufet-policy-after-getting-hands-with-shiv-sena" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/lalu-was-sentenced-to-five-years-imprisonment-five-lakh-fine-in-one-of-the-fodder-scam-case" title="લાલુની વૃધ્ધાવસ્થા જેલમાં, વધુ પાંચ વર્ષની કેદ">લાલુની વૃધ્ધાવસ્થા જેલમાં, વધુ પાંચ વર્ષની કેદ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/lalu-was-sentenced-to-five-years-imprisonment-five-lakh-fine-in-one-of-the-fodder-scam-case"  title="લાલુની વૃધ્ધાવસ્થા જેલમાં, વધુ પાંચ વર્ષની કેદ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/LALU_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/LALU_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">બિહારના પૂર્વ મુખ્ય પ્રધાન લાલુ પ્રસાદ યાદવને વધુ એક ચારા..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/lalu-was-sentenced-to-five-years-imprisonment-five-lakh-fine-in-one-of-the-fodder-scam-case" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-the-wake-of-the-bharat-dam-there-are-3-000-troops-including-semi-military-forces-in-ahm" title="ભારત બંધના પગલે અમદાવાદમાં અર્ધ લશ્કરી દળો સહિત ૩૦૦૦ જવાનો તૈનાત">ભારત બંધના પગલે અમદાવાદમાં અર્ધ લશ્કરી દળો સહિત ૩૦૦૦ જવાનો..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-the-wake-of-the-bharat-dam-there-are-3-000-troops-including-semi-military-forces-in-ahm"  title="ભારત બંધના પગલે અમદાવાદમાં અર્ધ લશ્કરી દળો સહિત ૩૦૦૦ જવાનો તૈનાત">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-311_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-311_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">પદ્માવતી ફિલ્મના શાંતિ પૂર્વક વિરોધના બહાને ગઇકાલે તોફાની તત્વોએ અમદાવાદને..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/in-the-wake-of-the-bharat-dam-there-are-3-000-troops-including-semi-military-forces-in-ahm" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/president-of-medal-for-nine-people-of-gujarat-police" title="ગુજરાત પોલીસના નવ જવાનોને  રાષ્ટ્રપતિ ચંદ્રક">ગુજરાત પોલીસના નવ જવાનોને  રાષ્ટ્રપતિ ચંદ્રક..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/president-of-medal-for-nine-people-of-gujarat-police"  title="ગુજરાત પોલીસના નવ જવાનોને  રાષ્ટ્રપતિ ચંદ્રક">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/aaaa12_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/aaaa12_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">૨૬મી જાન્યુઆરીએ પ્રજાસત્તાક  દિનની પૂર્વ સંધ્યાને રાષ્ટ્રપતિ રામનાથ કોવિંદએ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/president-of-medal-for-nine-people-of-gujarat-police" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/high-court-order-not-to-hold-any-election-till-now-not-to-contest-against-disqualification-" title="આપના ૨૦ ધારાસભ્યને ગેરલાયક ઠેરવવા સામે સ્ટે નહીં, હાલ પેટા ચૂંટણી ન યોજવા પણ હાઇકોર્ટનો આદેશ">આપના ૨૦ ધારાસભ્યને ગેરલાયક ઠેરવવા સામે સ્ટે નહીં, હાલ પેટા..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/high-court-order-not-to-hold-any-election-till-now-not-to-contest-against-disqualification-"  title="આપના ૨૦ ધારાસભ્યને ગેરલાયક ઠેરવવા સામે સ્ટે નહીં, હાલ પેટા ચૂંટણી ન યોજવા પણ હાઇકોર્ટનો આદેશ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/HIGH1_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/HIGH1_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">સંસદીય સચીવનું પદ સંભાળવા બદવ ઓફિસ ઓફ પ્રોફિટ કેસમાં આમ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/high-court-order-not-to-hold-any-election-till-now-not-to-contest-against-disqualification-" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padman-producer-twinkle-khanna-clarifies-her-statement-that-viagra-is-tax-free-but-san" title="સેનેટરી પેડ પર ટેક્સ અને વાયેગ્રા કરમુક્ત ? બુઢ્ઢા નેતાઓના કારણે : ટ્વીંકલ ખન્ના">સેનેટરી પેડ પર ટેક્સ અને વાયેગ્રા કરમુક્ત ? બુઢ્ઢા નેતાઓના..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padman-producer-twinkle-khanna-clarifies-her-statement-that-viagra-is-tax-free-but-san"  title="સેનેટરી પેડ પર ટેક્સ અને વાયેગ્રા કરમુક્ત ? બુઢ્ઢા નેતાઓના કારણે : ટ્વીંકલ ખન્ના">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/padman-producer-twinkle-kha_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/padman-producer-twinkle-kha_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">બોલીવુડ અભિનેત્રી ટ્વીંકલ ખન્નાએ પોતાના એક ઇન્ટરવ્યૂમાં વિયગ્રા અંગેના નિવેદનને..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/entertainment/padman-producer-twinkle-khanna-clarifies-her-statement-that-viagra-is-tax-free-but-san" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/due-to-lack-of-release-of-padmavat-kshatriya-society-is-not-supported" title="'પદ્માવત' રીલિઝ નહીં થવાની હોવાથી બંધને ક્ષત્રિય સમાજનું સમર્થન નથી">'પદ્માવત' રીલિઝ નહીં થવાની હોવાથી બંધને ક્ષત્રિય સમાજનું સમર્થન નથી..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/due-to-lack-of-release-of-padmavat-kshatriya-society-is-not-supported"  title="'પદ્માવત' રીલિઝ નહીં થવાની હોવાથી બંધને ક્ષત્રિય સમાજનું સમર્થન નથી">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pradipsinh-j-12_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pradipsinh-j-12_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">રીલિઝ પહેલા જ વિવાદોનાં વમળમાં ફસાયેલી હિન્દી ફિલ્મ 'પદ્માવત'ના પ્રસારણ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/due-to-lack-of-release-of-padmavat-kshatriya-society-is-not-supported" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/india-pakistan-kashmir-does-not-require-third-mediation-if-there-is-no-equality-un" title="ભારત-પાક. સમંત ના થાય તો કાશ્મીર મુદ્દે ત્રીજા મધ્યસ્થીની જરૃર નથી :યુએન">ભારત-પાક. સમંત ના થાય તો કાશ્મીર મુદ્દે ત્રીજા મધ્યસ્થીની જરૃર..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/india-pakistan-kashmir-does-not-require-third-mediation-if-there-is-no-equality-un"  title="ભારત-પાક. સમંત ના થાય તો કાશ્મીર મુદ્દે ત્રીજા મધ્યસ્થીની જરૃર નથી :યુએન">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/un1_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/un1_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">
+ભારત-પાકિસ્તાનની સરહદે વધતી જતી તંગદીલી વચ્ચે સંયુક્ત રાષ્ટ્ર સંઘના વડા..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/india-pakistan-kashmir-does-not-require-third-mediation-if-there-is-no-equality-un" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/modiji-did-you-bring-black-flags-to-dasu-rahul-gandhi" title="મોદીજી, દાવોસથી વિમાનમાં કાળાંનાણાં લાવ્યા કે નહીં ? : રાહુલ ગાંધી">મોદીજી, દાવોસથી વિમાનમાં કાળાંનાણાં લાવ્યા કે નહીં ? : રાહુલ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/modiji-did-you-bring-black-flags-to-dasu-rahul-gandhi"  title="મોદીજી, દાવોસથી વિમાનમાં કાળાંનાણાં લાવ્યા કે નહીં ? : રાહુલ ગાંધી">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/RAHUL2_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/RAHUL2_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">વડાપ્રધાન નરેન્દ્ર મોદી પર બીજી વાર કટાક્ષ કરતાં કોંગ્રેસના પ્રમુખ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/modiji-did-you-bring-black-flags-to-dasu-rahul-gandhi" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/petroleum-ministry-considers-to-reduce-excise-duty-on-petrol-and-diesel" title="પેટ્રોલ-ડીઝલ પરની એક્સાઇઝ ડયુટી ઘટાડવા પેટ્રોલિયમ  મંત્રાલયની વિચારણા">પેટ્રોલ-ડીઝલ પરની એક્સાઇઝ ડયુટી ઘટાડવા પેટ્રોલિયમ  મંત્રાલયની વિચારણા..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/petroleum-ministry-considers-to-reduce-excise-duty-on-petrol-and-diesel"  title="પેટ્રોલ-ડીઝલ પરની એક્સાઇઝ ડયુટી ઘટાડવા પેટ્રોલિયમ  મંત્રાલયની વિચારણા">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/petrol67_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/petrol67_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">
+દેશમાં પેટ્રોલ-ડિઝલના સતત આસમાને જતા ભાવથી સરકારના ચહેરા પર ચિંતા..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/petroleum-ministry-considers-to-reduce-excise-duty-on-petrol-and-diesel" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/violent-protests-of-padmavat-across-the-country-today-in-india-s-bust" title="#પદ્માવત : દેશભરમાં પદ્માવતનો હિંસક વિરોધ, આજે ભારત બંધ">#પદ્માવત : દેશભરમાં પદ્માવતનો હિંસક વિરોધ, આજે ભારત બંધ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/violent-protests-of-padmavat-across-the-country-today-in-india-s-bust"  title="#પદ્માવત : દેશભરમાં પદ્માવતનો હિંસક વિરોધ, આજે ભારત બંધ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PAD_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PAD_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">ફિલ્મ પદ્માવતના વિરોધ માટે દેશભરમાં રાજપુત સમાજ અને અન્ય સંગઠનો..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/violent-protests-of-padmavat-across-the-country-today-in-india-s-bust" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/dr-suman-dip-university-exim-controller-dr-in-punaco-jail" title="સુમનદીપ વિદ્યાપીઠના એક્ઝામ કંટ્રોલર ડો. પુનેચા જેલમાં">સુમનદીપ વિદ્યાપીઠના એક્ઝામ કંટ્રોલર ડો. પુનેચા જેલમાં..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/dr-suman-dip-university-exim-controller-dr-in-punaco-jail"  title="સુમનદીપ વિદ્યાપીઠના એક્ઝામ કંટ્રોલર ડો. પુનેચા જેલમાં">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/jail34_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/jail34_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">સુમનદીપ વિદ્યાપીઠના રૃપિયા ૨૦ લાખના લાંચ કેસમાં પકડાયેલા એક્ઝામ કંન્ટ્રોલર..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/dr-suman-dip-university-exim-controller-dr-in-punaco-jail" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/rajkot/today-there-is-a-strong-police-presence-in-saurashtra-between-the-heavy-impediment-on-the-iss" title=" આજે બંધના મુદ્દે ભારે અવઢવ વચ્ચે સૌરાષ્ટ્રમાં ચૂસ્ત પોલીસ બંદોબસ્ત"> આજે બંધના મુદ્દે ભારે અવઢવ વચ્ચે સૌરાષ્ટ્રમાં ચૂસ્ત પોલીસ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/rajkot/today-there-is-a-strong-police-presence-in-saurashtra-between-the-heavy-impediment-on-the-iss"  title=" આજે બંધના મુદ્દે ભારે અવઢવ વચ્ચે સૌરાષ્ટ્રમાં ચૂસ્ત પોલીસ બંદોબસ્ત">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-4_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/police-4_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">સૌરાષ્ટ્રમાં ફિલ્મ પદ્માવતનાં વિરોધમાં કાલે ગુરૃવારે બંધનું એલાન મુદ્દે અવઢવ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/rajkot/today-there-is-a-strong-police-presence-in-saurashtra-between-the-heavy-impediment-on-the-iss" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/two-militants-were-killed-in-an-encounter-in-shopia-kashmir-search-operations-began" title="કાશ્મીરના શોપિયામાં એન્કાઉન્ટર બે આતંકી ઠાર, સર્ચ ઓપરેશન શરૃ">કાશ્મીરના શોપિયામાં એન્કાઉન્ટર બે આતંકી ઠાર, સર્ચ ઓપરેશન શરૃ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/two-militants-were-killed-in-an-encounter-in-shopia-kashmir-search-operations-began"  title="કાશ્મીરના શોપિયામાં એન્કાઉન્ટર બે આતંકી ઠાર, સર્ચ ઓપરેશન શરૃ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/terrorist21_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/terrorist21_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">
+કાશ્મીરના શોપિયામાં આજે થયેલી અથડામણમાં બે આતંકવાદી ઠાર મરાયા હતા...</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/two-militants-were-killed-in-an-encounter-in-shopia-kashmir-search-operations-began" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/taxation-of-rs-80-10-crores-in-the-budget-of-the-municipal-corporation" title="મ્યુનિ.કોર્પોરેશનના બજેટમાં રૃા.૮૦.૧૦ કરોડનો કરબોજ">મ્યુનિ.કોર્પોરેશનના બજેટમાં રૃા.૮૦.૧૦ કરોડનો કરબોજ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/taxation-of-rs-80-10-crores-in-the-budget-of-the-municipal-corporation"  title="મ્યુનિ.કોર્પોરેશનના બજેટમાં રૃા.૮૦.૧૦ કરોડનો કરબોજ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/tax-12_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/tax-12_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">વડોદરા મ્યુનિસિપલ કોર્પોરેશનનું વર્ષ ૨૦૧૮-૧૯નું ડ્રાફ્ટ બજેટ આજરોજ સ્થાયી સમિતિમાં..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/taxation-of-rs-80-10-crores-in-the-budget-of-the-municipal-corporation" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/aam-aadmi-party-disqualification-delhi-high-court-bypolls" title="'આપ'ને હાઇકોર્ટની રહત, પેટાચૂંટણી યોજવા પર હાઇકોર્ટે લગાવી રોક">'આપ'ને હાઇકોર્ટની રહત, પેટાચૂંટણી યોજવા પર હાઇકોર્ટે લગાવી રોક..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/aam-aadmi-party-disqualification-delhi-high-court-bypolls"  title="'આપ'ને હાઇકોર્ટની રહત, પેટાચૂંટણી યોજવા પર હાઇકોર્ટે લગાવી રોક">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/aam-aadmi-party-disqualific_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/aam-aadmi-party-disqualific_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">આમ આદમી પાર્ટીના ધારાસભ્યોને અયોગ્ય ઠેરવવાના મામલે પાર્ટી દ્વારા દિલ્હી..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/aam-aadmi-party-disqualification-delhi-high-court-bypolls" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/the-state-minister-invited-people-to-not-go-to-see-padmavat" title="રાજ્યના પ્રધાને પદ્માવત જોવા ન જવાનું લોકોને આહવાન કર્યું">રાજ્યના પ્રધાને પદ્માવત જોવા ન જવાનું લોકોને આહવાન કર્યું..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/the-state-minister-invited-people-to-not-go-to-see-padmavat"  title="રાજ્યના પ્રધાને પદ્માવત જોવા ન જવાનું લોકોને આહવાન કર્યું">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PADMAVATI_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PADMAVATI_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">વિરોધનો વંટોળ જગાવનારી પદ્માવત ફિલ્મને સેન્સર બોર્ડે પાસ કરી, સુપ્રીમ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/mumbai/the-state-minister-invited-people-to-not-go-to-see-padmavat" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/bhuj/supreme-court-gave-relief-to-the-middle-class-family-in-the-case-of-kutch" title="સુપ્રિમકોર્ટે કચ્છના કેસમાં મધ્યમ વર્ગના પરિવારને રાહત આપતો  ચુકાદો આપ્યો">સુપ્રિમકોર્ટે કચ્છના કેસમાં મધ્યમ વર્ગના પરિવારને રાહત આપતો  ચુકાદો..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/bhuj/supreme-court-gave-relief-to-the-middle-class-family-in-the-case-of-kutch"  title="સુપ્રિમકોર્ટે કચ્છના કેસમાં મધ્યમ વર્ગના પરિવારને રાહત આપતો  ચુકાદો આપ્યો">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/supreme-court-18_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/supreme-court-18_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">એરફોર્સ ભુજના કર્મચારી જોસેફ લુઈસ તા. ૨૦-૦૨-૧૯૯૨ના રોજ એરપોર્ટ રોડ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/bhuj/supreme-court-gave-relief-to-the-middle-class-family-in-the-case-of-kutch" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/in-the-united-states-two-gujarati-people-confessed-to-inflicting-fake-cigarettes" title="અમેરિકામાં બે ગુજરાતીઓએ નકલી સિગારેટ ધુસાડવા બદલ ગુનો કબુલ્યો">અમેરિકામાં બે ગુજરાતીઓએ નકલી સિગારેટ ધુસાડવા બદલ ગુનો કબુલ્યો..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/in-the-united-states-two-gujarati-people-confessed-to-inflicting-fake-cigarettes"  title="અમેરિકામાં બે ગુજરાતીઓએ નકલી સિગારેટ ધુસાડવા બદલ ગુનો કબુલ્યો">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/SIGRA_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/SIGRA_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">અમેરિકામાં નકલી સિગારેટ ઘુસાડવા ષડયંત્ર રચનાર બે ભારતીયો અને ભારતસ્થિત..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/international/in-the-united-states-two-gujarati-people-confessed-to-inflicting-fake-cigarettes" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/it-will-take-time-to-formulate-a-legal-framework" title="લોકસભા-વિધાનસભાની સમાંતર ચૂંટણી માટે કાયદાકીય માળખું ઘડવામાં સમય લાગશે">લોકસભા-વિધાનસભાની સમાંતર ચૂંટણી માટે કાયદાકીય માળખું ઘડવામાં સમય લાગશે..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/it-will-take-time-to-formulate-a-legal-framework"  title="લોકસભા-વિધાનસભાની સમાંતર ચૂંટણી માટે કાયદાકીય માળખું ઘડવામાં સમય લાગશે">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/rawat9_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/rawat9_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">વડાપ્રધાન નરેન્દ્ર મોદીએ ફરી એક વખત લોકસભા અને વિધાનસભાની એક..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/national/it-will-take-time-to-formulate-a-legal-framework" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/the-protest-of-padmavat-in-gujarat-railco-and-chakrajaj" title="ગુજરાતમાં 'પદ્માવત'નો વિરોધ યથાવત:રેલરોકો અને ચક્કાજામ">ગુજરાતમાં 'પદ્માવત'નો વિરોધ યથાવત:રેલરોકો અને ચક્કાજામ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/the-protest-of-padmavat-in-gujarat-railco-and-chakrajaj"  title="ગુજરાતમાં 'પદ્માવત'નો વિરોધ યથાવત:રેલરોકો અને ચક્કાજામ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/chakkajam-2_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/chakkajam-2_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">ભાજપ સરકારે કડકહાથે આંદોલન ડામી દેવા ડિંગો હાંકી રહી છે..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/the-protest-of-padmavat-in-gujarat-railco-and-chakrajaj" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/kshatriya-chakrajajam-on-express-highway-in-protest-against-padmavat" title="પદ્માવતના વિરોધમાં એક્સપ્રેસ હાઇવે પર ક્ષત્રિયોનો ચક્કાજામ">પદ્માવતના વિરોધમાં એક્સપ્રેસ હાઇવે પર ક્ષત્રિયોનો ચક્કાજામ..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/kshatriya-chakrajajam-on-express-highway-in-protest-against-padmavat"  title="પદ્માવતના વિરોધમાં એક્સપ્રેસ હાઇવે પર ક્ષત્રિયોનો ચક્કાજામ">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/chakkajam-12_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/chakkajam-12_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">સમગ્ર દેશમાં આવતીકાલે પદ્માવત ફિલ્મ રિલીઝ થવાના વિરોધમાં વડોદરા જિલ્લાના..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/baroda/kshatriya-chakrajajam-on-express-highway-in-protest-against-padmavat" title="Click for More">More...</a>
+          </div>
+                    <div class="margintop74">
+            <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/closure-announcement-stop-the-unwanted-incidents" title="બંધનું એલાન: અનિચ્છનીય બનાવો રોકવા ચાંપતો બંદોબસ્ત">બંધનું એલાન: અનિચ્છનીય બનાવો રોકવા ચાંપતો બંદોબસ્ત..</a></b></h4>
+
+          <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/closure-announcement-stop-the-unwanted-incidents"  title="બંધનું એલાન: અનિચ્છનીય બનાવો રોકવા ચાંપતો બંદોબસ્ત">
+                    <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/bandh-21_thumb.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/bandh-21_thumb.jpg" alt="" class="nil-tn"  />
+          </a>
+
+            <div class="fittext3">આવતીકાલે ગુરૃવારે બંધનાં દિવસે રાજ્યમાં કોઈ પ્રકારની અનિચ્છનીય ઘટના ન..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/ahmedabad/closure-announcement-stop-the-unwanted-incidents" title="Click for More">More...</a>
+          </div>
+                </div>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('#features').jshowoff();
+        });
+      </script>
+    </div>
+
+
+
+
+      <div class="tbt"><a class="titleu" href="http://www.gujaratsamachar.com/index.php/page/gujarat-samachar-plus" title="GoTo Gujarat Samachar Plus..."><h1 class="title-boxnew">Gujarat Samachar Plus</h1></a></div>
+          <div class="main-box1 trending-box3 trending-box74 flikrlazy flikrlazy745">
+        <div id="features1">
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/nurma-university-s-student-winner-in-national-moot-court-competition" title="નેશનલ મૂટ કોર્ટ કોમ્પિટિશનમાં નિરમા યુનિવર્સિટીના સ્ટુડન્ટસ વિનર">નેશનલ મૂટ કોર્ટ કોમ્પિટિશનમાં નિરમા યુનિવર્સિટીના સ્ટુડન્ટસ વિનર</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/nurma-university-s-student-winner-in-national-moot-court-competition" title="નેશનલ મૂટ કોર્ટ કોમ્પિટિશનમાં નિરમા યુનિવર્સિટીના સ્ટુડન્ટસ વિનર">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-12.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-12.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">નાગપુરની બાબાસાહેબ આંબેડકર કોલેજ ઓફ લૉમાં ૧૯થી ૨૧મી જાન્યુઆરીએ ૧૬મી..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/nurma-university-s-student-winner-in-national-moot-court-competition" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/indian-researchers-are-working-hard-in-the-medical-field" title="મેડીકલ ક્ષેત્રે ભારતના સંશોધકો ઘણી મહેનત કરી રહ્યા છે">મેડીકલ ક્ષેત્રે ભારતના સંશોધકો ઘણી મહેનત કરી રહ્યા છે</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/indian-researchers-are-working-hard-in-the-medical-field" title="મેડીકલ ક્ષેત્રે ભારતના સંશોધકો ઘણી મહેનત કરી રહ્યા છે">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-2-1A.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-2-1A.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">ઈન્સ્ટિટયૂટ ઓફ ફાર્મસીમાં શરૃ થયેલી આંતરરાષ્ટ્રીય કોન્ફરન્સ 'નિપકોન- ૨૦૧૮'માં ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/indian-researchers-are-working-hard-in-the-medical-field" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/with-the-help-of-technology-now-the-movie-s-character-can-be-given-command" title="ટેકનોલોજીની મદદથી હવે ગેમ્સની જેમ મુવીના કેરેક્ટરને પણ કમાન્ડ આપી શકાશે">ટેકનોલોજીની મદદથી હવે ગેમ્સની જેમ મુવીના કેરેક્ટરને પણ કમાન્ડ આપી શકાશે</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/with-the-help-of-technology-now-the-movie-s-character-can-be-given-command" title="ટેકનોલોજીની મદદથી હવે ગેમ્સની જેમ મુવીના કેરેક્ટરને પણ કમાન્ડ આપી શકાશે">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-17.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-17.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">આલિઓંસ ફ્રોસેંઝમાં ત્રણ દિવસ માટે ડિસપ્લે યોજાયું..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/with-the-help-of-technology-now-the-movie-s-character-can-be-given-command" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/pravin-joshi-is-a-unique-bajir-who-is-involved-in-all-the-drama-watching-roles" title="નાટક જોવાની હોડમાં સૌને સામેલ કરનારા એક અનોખા બાજીગર એટલે પ્રવીણ જોષી">નાટક જોવાની હોડમાં સૌને સામેલ કરનારા એક અનોખા બાજીગર એટલે પ્રવીણ જોષી</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/pravin-joshi-is-a-unique-bajir-who-is-involved-in-all-the-drama-watching-roles" title="નાટક જોવાની હોડમાં સૌને સામેલ કરનારા એક અનોખા બાજીગર એટલે પ્રવીણ જોષી">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-25.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-25.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">ગુજરાત વિશ્વકોશ ટ્રસ્ટના ઉપક્રમે વિખ્યાત અભિનેતા અને દિગ્દર્શક પ્રવીણ જોષીની..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/pravin-joshi-is-a-unique-bajir-who-is-involved-in-all-the-drama-watching-roles" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/perspective-richter-10-drama-photography-stock-food-war" title="Perspective Richter -10 ડ્રામા, ફોટોગ્રાફી, સ્ટોક & ફૂડ વોર">Perspective Richter -10 ડ્રામા, ફોટોગ્રાફી, સ્ટોક & ફૂડ વોર</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/perspective-richter-10-drama-photography-stock-food-war" title="Perspective Richter -10 ડ્રામા, ફોટોગ્રાફી, સ્ટોક & ફૂડ વોર">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-33.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG2-33.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">ઇન્સ્ટિટયૂટ ઓફ મેનેજમેન્ટમાં સ્ટ્રીટ પ્લે, ફોટોગ્રાફી, સ્ટોક મેનિયા સ્પર્ધા યોજાઇ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/perspective-richter-10-drama-photography-stock-food-war" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/we-are-moving-towards-fourth-industrial-revolution" title="આપણે ચોથા ઈન્ડ્સ્ટ્રીયલ રિવોલ્યૂશન તરફ આગળ વધી રહ્યા છીએ">આપણે ચોથા ઈન્ડ્સ્ટ્રીયલ રિવોલ્યૂશન તરફ આગળ વધી રહ્યા છીએ</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/we-are-moving-towards-fourth-industrial-revolution" title="આપણે ચોથા ઈન્ડ્સ્ટ્રીયલ રિવોલ્યૂશન તરફ આગળ વધી રહ્યા છીએ">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-11.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-11.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">માઈકાની સ્ટુડન્ટસ કમિટી દ્વારા લીડરશીપ લેક્ચર સિરિઝનું આયોજન કરવામાં આવ્યું..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/we-are-moving-towards-fourth-industrial-revolution" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/eye-surgeon-dr-sirikalal-examines-patients-for-91-years-of-age" title="ઘરડે ઘડપણ આંખે મોતિયો આવી ગયો હોય ત્યારે આઇ સર્જન ડૉ.રસિકલાલ ૯૧ વર્ષેય દર્દીઓને તપાસે છે">ઘરડે ઘડપણ આંખે મોતિયો આવી ગયો હોય ત્યારે આઇ સર્જન ડૉ.રસિકલાલ ૯૧ વર્ષેય દર્દીઓને તપાસે છે</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/eye-surgeon-dr-sirikalal-examines-patients-for-91-years-of-age" title="ઘરડે ઘડપણ આંખે મોતિયો આવી ગયો હોય ત્યારે આઇ સર્જન ડૉ.રસિકલાલ ૯૧ વર્ષેય દર્દીઓને તપાસે છે">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-1-11.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/pg-1-11.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">રસિકદાદાએ કોર્પોરેશન સંચાલિત શારદાબેન હોસ્પિટલમાં સેવા આપી તેમજ લાયન્સ ક્લબમાં..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/eye-surgeon-dr-sirikalal-examines-patients-for-91-years-of-age" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/do-the-research-that-can-be-useful-in-real-life" title="સંશોધન એવું કરો જે વાસ્તવિક જીવનમાં ઉપયોગી થઈ શકે">સંશોધન એવું કરો જે વાસ્તવિક જીવનમાં ઉપયોગી થઈ શકે</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/do-the-research-that-can-be-useful-in-real-life" title="સંશોધન એવું કરો જે વાસ્તવિક જીવનમાં ઉપયોગી થઈ શકે">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-1-1_Final1.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-1-1_Final1.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">ગુજરાત ટેકનોલોજીકલ  યુનિવસટીનો સાતમો પદવીદાન સમારોહ ગાંધીનગર મહાત્મા મંદિર..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/do-the-research-that-can-be-useful-in-real-life" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/the-first-to-draw-technology-from-business-now-draws-technology-business" title="પહેલા બિઝનેસથી ટેકનોલોજી દોરવાતી, હવે ટેકનોલોજી બિઝનેસને દોરે છે">પહેલા બિઝનેસથી ટેકનોલોજી દોરવાતી, હવે ટેકનોલોજી બિઝનેસને દોરે છે</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/the-first-to-draw-technology-from-business-now-draws-technology-business" title="પહેલા બિઝનેસથી ટેકનોલોજી દોરવાતી, હવે ટેકનોલોજી બિઝનેસને દોરે છે">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-2-119.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-2-119.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">નિરમા યુનિવર્સિટી ખાતે ૧૧થી ૧૩ જાન્યુઆરી દરમિયાન મેનેજમેન્ટની ઈન્ટનેશનલ કોન્ફરન્સ..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/the-first-to-draw-technology-from-business-now-draws-technology-business" title="Click for More" >More...</a>
+            </div>
+                      <div class="margintop74">
+              <h4><b><a class="cl74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/life-is-not-achieved-without-conflict" title="સંઘર્ષ વગર જીવનમાં સફળતા પ્રાપ્ત થતી નથી">સંઘર્ષ વગર જીવનમાં સફળતા પ્રાપ્ત થતી નથી</a></b></h4>
+              <a href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/life-is-not-achieved-without-conflict" title="સંઘર્ષ વગર જીવનમાં સફળતા પ્રાપ્ત થતી નથી">
+
+                       <img src="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-2-215.jpg"  data-original="http://www.gujaratsamachar.com/thumbprocessor/images.php?max_width=270&max_height=200&imgfile=/home/gujsamachar/public_html/uploads/ckeditor/articles_thumbs/PG-2-215.jpg" alt="" class="nil-tn"  />
+          </a>
+              <div class="fittext3">એચે.એ. કોલેજ ઓફ કોમર્સમાં આજે સ્વામી વિવેકાનંદજીની જન્મ જયંતી નિમિત્તે..</div><a class="more-mr more-mr74" href="http://www.gujaratsamachar.com/index.php/articles/display_article/gujarat-samachar-plus/life-is-not-achieved-without-conflict" title="Click for More" >More...</a>
+            </div>
+                  </div>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('#features1').jshowoff();
+          });
+        </script>
+      </div>
+
+
+
+  <div class="clear"></div>
+  <div class="add flikrlazy">
+      </div>
+
+          <div class="main-box1" style="border:none;">	<a href="http://gujaratsamacharepaper.com/" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1493117122_Logo Epaper1.jpg" style="width: 300px; height: 100px; border-width: 2px; border-style: solid; margin: 10px;" /></a>
+</div>
+
+
+  <div class="clear"></div>
+
+          <div class="tbt"><h1 class="title-boxnew" style="font-size:18px;"><b>GS Exclusive</b></h1></div>
+        <div class="main-box1 flikrlazy" style="overflow:hidden !important; padding:30px 7px 5px; width:94%;">
+            <div id="features_sp">
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_8"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1498479858_GST NEWS IN Gujarati.jpg" style="width: 350px; height: 250px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://gujaratsamachar.com/index.php/special_page/index/special_9" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1515579263_saptak-2018.jpg" style="width: 350px; height: 200px;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_10" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1506415534_election.jpg" style="width: 350px; height: 250px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_14" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1516696005_26th-january-2018.jpg" style="width: 352px; height: 252px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_16"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1516855613_Untitled-1.jpg" style="width: 590px; height: 350px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_99" target="_blank"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1500985851_maxresdefault.jpg" style="width: 350px; height: 250px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_96" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1440418618_video.jpg" style="width: 290px; height: 225px; border-width: 3px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_95" target="_blank"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1502694739_india-70.jpg" style="width: 350px; height: 250px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://gujaratsamachar.com/index.php/special_page/index/special_94" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1515495460_SAHTDAL-ADVT-for-Main.jpg" style="width: 290px; height: 193px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">
+	<a href="http://gujaratsamachar.com/index.php/special_page/index/special_92" target="_blank"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1514273396_goodbye-2017.jpg" style="width: 350px; height: 250px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">	<a href="http://gujaratsamachar.com/index.php/special_page/index/special_88" target="_blank"><img alt="" src="http://gujaratsamachar.com/uploads/ckeditor/1515836421_Kiteotsav.jpg" style="width: 300px; height: 200px; border-width: 2px; border-style: solid;" /></a>
+</div>
+                                    <div class="margintop74">	<a href="http://www.gujaratsamachar.com/index.php/special_page/index/special_68"><img alt="" src="http://www.gujaratsamachar.com/uploads/ckeditor/1476286120_modi.jpg" style="width: 290px; height: 225px;" /></a>
+</div>
+                            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#features_sp').jshowoff();
+                });
+            </script>
+        </div>
+      <div class="clear"></div>
+
+  <div class="tbt"><h1 class="title-boxnew">Lagna Vishayak</h1></div>
+  <div class="main-box1 flikrlazy">
+    <ul class="aaj">
+      </ul><ul class='aaj'>            <li><a href="http://www.gujaratsamachar.com/index.php/lagna/usa-ads">USA Ads</a></li>
+                </ul>
+  </div>
+
+   <!--  <div class="tbt"><h1 class="title-boxnew">Follow Us</h1></div>
+  <div class="main-box1 flikrlazy">
+    <div class="margin954" > <a href="http://www.facebook.com/gujarat.samachar.news" target="_blank"><img src="http://www.gujaratsamachar.com/pages/images/facebook.png" data-original="http://www.gujaratsamachar.com/pages/images/Facebook_25x25.png" alt="" title="gujarat samachar"></a>&nbsp;&nbsp;
+      <a href="http://twitter.com/gujratsamachar" target="_blank"> <img src="http://www.gujaratsamachar.com/pages/images/twitter1.png" data-original="http://www.gujaratsamachar.com/pages/images/twitter1.png" alt="" title="gujarat samachar"></a></div>
+    <div id="webutation-pixelbadge" align="right" class="mr7874">
+      <a id="webutation-pixelbadge-link"  href="http://www.webutation.net/go/review/beta.gujaratsamachar.com"><img height="15" width="80" src="http://www.webutation.net/images/pixelbadge.png" alt="Webutation" id="webutation-pixelbadge-image" class="imgboder78"></a>
+    </div>
+  </div> -->
+  <div class="clear"></div>
+
+  <!-- Right Side Special Link Box Start -->
+    <!-- Right Side Special Link Box End -->
+
+  <!-- USA Edition by Swapnil Start -->
+  <!-- <div class="tbt"><h1 class="title-boxnew">USA Edition</h1></div>
+  <div class="main-box1 flikrlazy">
+    <div class="margin954">
+      <a href="http://www.gujaratsamachar.net/gujarat/hweb/index.aspx" target="_blank"><img height="130px" width="130px" src="http://www.gujaratsamachar.com/pages/images/usaadditionimg.jpg" data-original="http://www.gujaratsamachar.com/pages/images/usaadditionimg.jpg" alt="" title="USA Edition Ads"></a>&nbsp;&nbsp;
+      <a href="http://www.gujaratsamachar.com/gujaratsamachar.com/Others/usa_sub.html" target="_blank"> <img height="130px" width="130px" src="http://www.gujaratsamachar.com/pages/images/usaadditionimg02.jpg" data-original="http://www.gujaratsamachar.com/pages/images/usaadditionimg02.jpg" alt="" title="USA Edition Ads"></a>
+    </div>
+  </div> -->
+  <div class="clear"></div>
+  <!-- USA Edition by Swapnil End -->
+  <div class="tbt"><h1 class="title-boxnew forpage">View Gujarat Samachar In PDF</h1></div>
+  <div class="main-box1 flikrlazy">
+    <div class="margin954">
+            <table border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td>Select Category</td>
+          <td>
+            <select name="drpcat" id="drpcat"><option value="">Select Category</option>
+                              <option value="1" id="cat">Main</option>
+                                <option value="2" id="cat">Magazines</option>
+                            </select>
+          </td>
+        </tr>
+      </table>
+      <script src="http://www.gujaratsamachar.com/js/ajax-switch/jquery.iphone-switch.js" type="text/javascript"></script>
+      <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+          $('#drpcat').change(function() {
+            var cnt = $('#drpcat').val();
+            window.location = "http://www.gujaratsamachar.com/index.php/page/pdfview/" + cnt;
+          });
+        });
+      </script>
+    </div><!-- margin954 End -->
+  </div><!-- main-box1 End -->
+  <div class="clear"></div>
+
+  <!-- Archives by Swapnil Start -->
+  <div class="tbt"><h1 class="title-boxnew">Archives</h1></div>
+  <div class="main-box1 flikrlazy">
+    <div class="margin954" id="archive_style">
+      <form action="search_response.php" method="post" name="search_form" id="search_form" target="_blank">
+          <!-- NEW ARCHIVE LOGIC BY SANJAY MOGHARIYA 31-01-2015 -->
+          <table border="0" cellspacing="0" cellpadding="5">
+              <tr>
+                  <td align="center">
+                                                    <select name="date" id="selectarchday">
+                              <option value="archive_2013-07-01">Jul 2013 - Aug 2013</option><option value="archive_2013-09-01">Sep 2013 - Oct 2013</option><option value="archive_2013-11-01">Nov 2013 - Dec 2013</option><option value="archive_2014-01-01">Jan 2014 - Feb 2014</option><option value="archive_2014-04-01">Apr 2014 - May 2014</option><option value="archive_2014-05-31">May 2014 - Jul 2014</option><option value="archive_2014-07-30">Jul 2014 - Aug 2014</option><option value="archive_2014-09-01">Sep 2014 - Oct 2014</option><option value="archive_2014-09-28">Sep 2014 - Oct 2014</option><option value="archive_2014-11-27">Nov 2014 - Dec 2014</option><option value="archive_2015-01-26">Jan 2015 - Feb 2015</option><option value="archive_2015-03-27">Mar 2015 - Apr 2015</option><option value="archive_2015-05-26">May 2015 - Jun 2015</option><option value="archive_2015-07-25">Jul 2015 - Aug 2015</option><option value="archive_2015-09-23">Sep 2015 - Oct 2015</option><option value="archive_2015-11-22">Nov 2015 - Dec 2015</option><option value="archive_2016-01-21">Jan 2016 - Feb 2016</option><option value="archive_2016-03-21">Mar 2016 - Apr 2016</option><option value="archive_2016-05-20">May 2016 - Jun 2016</option><option value="archive_2016-07-19">Jul 2016 - Aug 2016</option><option value="archive_2016-09-17">Sep 2016 - Oct 2016</option><option value="archive_2016-11-16">Nov 2016 - Dec 2016</option><option value="archive_2017-01-15">Jan 2017 - Feb 2017</option><option value="archive_2017-03-16">Mar 2017 - Apr 2017</option><option value="archive_2017-05-15">May 2017 - Jun 2017</option>                            </select>
+                            </td>
+                            <td align="center">
+                              <input type="button" name="sub" value="GO" onclick="go_search()" alt="Click here for Archive Data ..." />
+                            </td>
+                                      </tr>
+          </table>
+          <!-- END NEW ARCHIVE LOGIC BY SANJAY MOGHARIYA 31-01-2015 -->
+      </form>
+
+  <!-- Archives by Swapnil Start -->
+
+
+      <script type="text/javascript" language = "JavaScript">
+      function go_search()
+      {
+         // NEW CODE BY SANJAY MOGHARIYA 31-01-2015
+         var date = $("#selectarchday").val();
+
+         if (date != '') {
+          $.ajax({
+            type: 'post',
+            data: {"date": date},
+            url: 'http://www.gujaratsamachar.com/index.php/static_page/search_path/',
+            beforeSend: function() {
+              showInfo("Please Wait...", 1000);
+            },
+            success: function(data) {
+
+              var txt = jQuery.parseJSON(data);
+
+              if (txt.status == 1) {
+                //alert(txt.msg);
+                showSuccess("please wait while redirect to archive...", 3000);
+                //window.open(txt.msg, "_blank");
+                window.open(txt.msg, "_self");
+              }
+              else if (txt.status == 2) {
+                showSuccess("please wait while redirect to archive...", 3000);
+                //window.open(txt.msg, "_blank");
+                window.open(txt.msg, "_self");
+              }
+              else if (txt.status == 0) {
+                showError(txt.msg, 3000);
+              }
+            }
+          });
+
+        } else {
+          showError("Select Date First...", 2000);
+        }
+
+         // END NEW CODE BY SANJAY MOGHARIYA 31-01-2015
+      }
+
+      </script>
+      <div id="alertMessage" class="error"></div>
+
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!-- Archives by Swapnil End -->
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300x600_Ravipurti -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8096200923666860"
+     data-ad-slot="4233384332"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div class="clear"></div>
+
+<!-- Poll Section -->
+<!-- End Poll Section -->
+
+<!-- script for squeezing text start -->
+<script type="text/javascript">
+  //$(".fittext3").fitText(1.1, {minFontSize: 12, maxFontSize: '14px'});
+</script>
+<!-- script for squeezing text end -->
+</div>
+<div class="clear"></div>
+
+	<div class="c-ViruFooter">
+		<div class="c-ViruFooter-Block">
+			<div class="c-ViruFooter-Block-Social left"><span>Follow Us</span>
+
+	<a href="http://www.facebook.com/gujarat.samachar.news" target="_blank"><img src="http://gujaratsamachar.com/pages/images/facebook_gs.png" data-original="http://gujaratsamachar.com/pages/images/facebook_gs.png" alt="" title="GujaratSamachar Facebook" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="http://twitter.com/gujratsamachar" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/twitter_gs.png" data-original="http://gujaratsamachar.com/pages/images/twitter_gs.png" alt="" title="GujaratSamachar Twitter" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://www.youtube.com/GujaratSamacharVideo" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/youtube_gs.png" data-original="http://gujaratsamachar.com/pages/images/youtube_gs.png" alt="" title="GujaratSamachar Youtube" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://plus.google.com/+GujaratSamacharAhmedabad/posts" target="_blank"> <img src="http://gujaratsamachar.com/pages/images/google_plus_gs.png" data-original="http://gujaratsamachar.com/pages/images/google_plus_gs.png" alt="" title="GujaratSamachar Google Plus" style="display: inline;" align="ABSMIDDLE"></a>
+	<a href="https://instagram.com/gujratsamachar/" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_instagram.png" data-original="http://gujaratsamachar.com/pages/images/icon_instagram.png" alt="" title="GujaratSamachar Instagram" align="ABSMIDDLE"></a>
+	<a href="https://in.pinterest.com/gujratsamachar/" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_pinterest.png" data-original="http://gujaratsamachar.com/pages/images/icon_pinterest.png" alt="" title="GujaratSamachar Pinterest" align="ABSMIDDLE"></a>
+	<a href="https://soundcloud.com/gujaratsamachar" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/icon_soundcloud.png" data-original="http://gujaratsamachar.com/pages/images/icon_soundcloud.png" alt="" title="GujaratSamachar SoundCloud" align="ABSMIDDLE"></a>
+	<a href="http://gujaratsamachar.com/index.php/rss" target="_blank"> <img style="width: 27px; height: 27px; display: inline;" src="http://gujaratsamachar.com/pages/images/Rss-feed.svg" data-original="http://gujaratsamachar.com/pages/images/Rss-feed.svg" alt="" title="GujaratSamachar RSS FEED" align="ABSMIDDLE"></a>			</div>
+			<div class="clear"></div>
+			<div class="c-ViruFooter-Block-ItemsList">
+			  <ul class="c-ViruFooter-Block-Items">
+				<li>
+					<a href="" style="color: #fff;font-weight: bold;" title="Categories">Categories</a>
+
+															<a href="http://www.gujaratsamachar.com/index.php/page/gujarat">Gujarat</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/mumbai">Mumbai</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/national">National</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/international">International</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/entertainment">Entertainment</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/sports">Sports</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/business">Business</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/magazines">Magazines</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/vaividhya">Vaividhya</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/astro">Astro</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/showvideo/displayvideogallery/">NRI News</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/photo">Slide show</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/health">Health</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/relationship">Relationship</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/lifestyle-fashion">Lifestyle & fashion</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/science-technology">Science & technology</a><span>|</span>
+																			<a href="http://www.gujaratsamachar.com/index.php/page/poll">Poll</a><span>|</span>
+													</li>
+				<li>
+					<a href="" style="color: #fff;font-weight: bold;" title="City News">City News</a>
+
+						<a href="http://www.gujaratsamachar.com/index.php/page/ahmedabad" title="Ahmedabad">Ahmedabad</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/gandhinagar" title="Gandhinagar">Gandhinagar</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/baroda" title="Baroda">Baroda</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/surat" title="Surat">Surat</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/rajkot" title="Rajkot">Rajkot</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/bhuj" title="Bhuj">Bhuj</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/kheda-anand" title="Kheda-Anand">Kheda-Anand</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/north-gujarat" title="North Gujarat">North Gujarat</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/bhavnagar" title="Bhavnagar">Bhavnagar</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/mumbai" title="Mumbai">Mumbai</a><span>|</span>
+				</li>
+				<li>
+					<a href="" style="color: #fff;font-weight: bold;" title="Vaividhya">Vaividhya</a>
+
+						<a href="http://www.gujaratsamachar.com/index.php/page/network" title="Network">Network</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/prasangpat" title="Prasangpat">Prasangpat</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/tantri-lekh" title="Tantri Lekh">Tantri Lekh</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/news-focus" title="News Focus">News Focus</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/delhi-ni-vaat" title="Delhi ni Vaat">Delhi ni Vaat</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/vichar-vihar" title="Vichar Vihar">Vichar Vihar</a><span>|</span>
+
+				</li>
+				<li>
+					<a href="" style="color: #fff;font-weight: bold;" title="Magazines News">Magazines</a>
+
+						<a href="http://www.gujaratsamachar.com/index.php/page/ravi-purti" title="Ravi Purti">Ravi Purti</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/business-plus" title="Business Plus">Business Plus</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/sahiyar" title="Sahiyar">Sahiyar</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/shatdal" title="Shatdal">Shatdal</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/dharmlok" title="Dharmlok">Dharmlok</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/chitralok" title="Chitralok">Chitralok</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/zagmag" title="Zagmag">Zagmag</a><span>|</span>
+						<a href="http://www.gujaratsamachar.com/index.php/page/gujarat-samachar-plus" title="Gujarat Samachar Plus">Gujarat Samachar Plus</a><span>|</span>
+				</li>
+
+			  </ul>
+			</div>
+			<div class="c-ViruFooter-Copyright">
+			  <div class="fl">&copy; All Rights Reserved 2018 GujaratSamachar.com</div>
+			  <span class="c-ViruFooter-General">
+												<a href="http://www.gujaratsamachar.com/gujaratsamachar.com/oldver/other/about/" target="_blank">About Us</a>
+																				<a href="http://www.gujaratsamachar.com/index.php/static_page/page_content/contact_us">Contact Us</a>
+																				<a href="http://www.gujaratsamachar.com/index.php/static_page/page_content/sitemap">Sitemap</a>
+																				<a href="http://www.gujaratsamachar.com/index.php/static_page/page_content/terms_and_conditions">Terms and Conditions</a>
+																	<a href="http://www.gujaratsamachar.com/gujaratsamachar.com/Others/advertise.html" target="_blank">Advertise with us</a>
+					<a href="mailto:feedback@gujaratsamachar.com">Feed Back</a>
+			  </span>
+			  </div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+
+		<!-- Top Articles Slider  JS -->
+		<script type="text/javascript">
+
+			$(function() {
+
+					var $items = $('#vtab>ul>li');
+
+					$items.mouseover(function() {
+
+							$items.removeClass('selected');
+
+							$(this).addClass('selected');
+
+
+
+							var index = $items.index($(this));
+
+							$('#vtab>div').hide().eq(index).show();
+
+					}).eq(1).mouseover();
+
+			});
+
+			</script>
+
+		<!-- End TOP Articles JS -->
+		<!-- City and Category Tabs JS-->
+				<script type="text/javascript">
+
+		$(document).ready(function () {
+
+		var theme = '';
+
+
+
+		//Creating jqxTabs
+
+		$('#jqxTabs').jqxTabs({ width: 675, theme: theme, selectionTracker: true, animationType: 'fade' });
+
+		$('#jqxTabsnew').jqxTabs({ width: 675, theme: theme, selectionTracker: true, animationType: 'fade' });
+
+		});
+
+		</script>
+		<!-- End City and Category Tabs JS-->
+		<!-- Menu Css -->
+				<script type="text/javascript">
+
+		$(document).ready(function($){
+
+		$('#mega-menu-tut').dcMegaMenu({
+
+		rowItems: '3',
+
+		speed: 'fast'
+
+		});
+
+		});
+
+		</script>
+		<!-- Lazyload -->
+
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-38699406-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			/*ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';*/
+			ga.src = 'https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+
+
+		<!-- End Menu Css -->
+
+<!-- script for squeezing text start -->
+	<script type="text/javascript">
+		$(".fittext_foot").fitText(1.1, { minFontSize: 12, maxFontSize: '14px' });
+	</script>
+<!-- script for squeezing text end -->
+
+	</body>
+</html>
