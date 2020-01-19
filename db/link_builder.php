@@ -15,7 +15,8 @@ function save_urls($urls = array())
 		$data['hash'] = $key;
 		$data['url'] = $link['url'];
 		$data['title'] = $link['title'];
-		$data['data'] = $link['data'];
+		$data['page_title'] = '';
+		$data['data'] = '';
 
 		save_link( $data );
 	}

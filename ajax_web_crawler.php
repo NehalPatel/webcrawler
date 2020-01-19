@@ -21,7 +21,7 @@ foreach ($urls as $key => $link) {
 	$row = array();
 	$row['hash'] = $link['hash'];
 
-	if ( save_html($link['hash'], $title, $html, $data) ) {
+	if ( save_html($link['hash'], $title, $data) ) {
 		$row['status'] = 'success';
 		$row['last_visited'] = date("Y-m-d H:i:s");
 	} else {

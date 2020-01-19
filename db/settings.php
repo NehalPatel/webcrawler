@@ -2,7 +2,7 @@
 
 define('HOST', 		'localhost');
 define('USER', 		'root');
-define('PASSWORD', 	'');
+define('PASSWORD', 	'root');
 define('DATABASE', 	'dbWebCrawler');
 
 define('TABLE', 'tbl_webdata');

@@ -45,13 +45,15 @@ function save_link( $data = array() )
 
 	$title = mysqli_real_escape_string($conn, $data['title']);
 
-	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, data, created_at, last_visited) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. $title . '", "", "'. date('Y-m-d H:i:s') .'", "")';
+	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, page_title, html, data, created_at) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. $title . '", "","","", "'. date('Y-m-d H:i:s') .'")';
 
-	//echo $sql . '<br />';
+	// echo $sql . '<br />';exit;
 
 	if ($conn->query($sql) === TRUE) {
 	    return true;
 	}
+
+	// echo $sql . '<br />';exit;
 
 	return false;
 }
@@ -99,17 +101,16 @@ function get_urls($offset = 20, $limit = 10)
 	return false;
 }
 
-function save_html($hash, $title, $html, $data)
+function save_html($hash, $title, $data)
 {
 	global $conn;
 
 	$title = mysqli_real_escape_string($conn, $title);
-	$html = mysqli_real_escape_string($conn, $html);
 	$data = mysqli_real_escape_string($conn, $data);
 
-	$sql = 'UPDATE ' . TABLE . ' SET page_title="'. $title .'", html="'. $html .'", data="'. $data .'", last_visited="'. date("Y-m-d") .'" WHERE hash="'. $hash .'"';
+	$sql = 'UPDATE ' . TABLE . ' SET page_title="'. $title .'", data="'. $data .'", last_visited="'. date("Y-m-d") .'" WHERE hash="'. $hash .'"';
 
-	// echo $sql . '<br />';
+	// echo $sql . '<br />';exit;
 
 	if ($conn->query($sql) === TRUE) {
 	    return true;
