@@ -99,21 +99,35 @@ function get_urls($offset = 20, $limit = 10)
 	return false;
 }
 
-function save_html($hash, $html)
+function save_html($hash, $title, $html, $data)
 {
 	global $conn;
 
+	$title = mysqli_real_escape_string($conn, $title);
 	$html = mysqli_real_escape_string($conn, $html);
+	$data = mysqli_real_escape_string($conn, $data);
 
-	$sql = 'UPDATE ' . TABLE . ' SET data="'. $html .'", last_visited="'. date("Y-m-d") .'" WHERE hash="'. $hash .'"';
+	$sql = 'UPDATE ' . TABLE . ' SET page_title="'. $title .'", html="'. $html .'", data="'. $data .'", last_visited="'. date("Y-m-d") .'" WHERE hash="'. $hash .'"';
 
-	//echo $sql . '<br />';
+	// echo $sql . '<br />';
 
 	if ($conn->query($sql) === TRUE) {
 	    return true;
 	}
 
 	return false;
+}
+
+function limitString($string, $limit = 100)
+{
+	// Return early if the string is already shorter than the limit
+	if (strlen($string) < $limit) {
+		return $string;
+	}
+
+	$regex = "/(.{1,$limit})\b/";
+	preg_match($regex, $string, $matches);
+	return $matches[1];
 }
 
 ?>

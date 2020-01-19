@@ -15,11 +15,13 @@ $urls = get_urls_from_db($offset, $limit);
 $result = array();
 foreach ($urls as $key => $link) {
 	$html = getUrl( $link['url'] );
-	$html = strip_html_contents( $html );
+	$data = strip_html_contents( $html );
+	$title = stip_page_title( $html );
+
 	$row = array();
 	$row['hash'] = $link['hash'];
 
-	if ( save_html($link['hash'], $html) ) {
+	if ( save_html($link['hash'], $title, $html, $data) ) {
 		$row['status'] = 'success';
 		$row['last_visited'] = date("Y-m-d H:i:s");
 	} else {

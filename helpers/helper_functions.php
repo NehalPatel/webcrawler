@@ -4,6 +4,7 @@
 function clean_html($html)
 {
 	$html = preg_replace('/<script\b[^>]*>(.*?)<\/script>/is', "", $html);
+	$html = preg_replace('/<style\b[^>]*>(.*?)<\/style>/is', "", $html);
 	$html = preg_replace('/<link \b[^>]*>(.*?)/is', "", $html);
 
 	return $html;
@@ -16,6 +17,16 @@ function strip_html_contents( $html )
 	$html = trim(preg_replace('/\s\s+/', ' ', str_replace("\n", " ", $html)));
 
 	return $html;
+}
+
+function stip_page_title( $html )
+{
+	preg_match_all('/<title>(.*?)<\/title>/', $html, $title);
+
+	if( empty($title[1][0]) )
+		return '';
+
+	return $title[1][0];
 }
 
 //collect all the anchor tags from the HTML
