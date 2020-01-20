@@ -45,7 +45,7 @@ function save_link( $data = array() )
 
 	$title = mysqli_real_escape_string($conn, $data['title']);
 
-	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, page_title, html, data, created_at) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. $title . '", "","","", "'. date('Y-m-d H:i:s') .'")';
+	$sql = 'INSERT INTO ' . TABLE . ' (hash, url, title, page_title, data, created_at) VALUES ("'. $data['hash'] .'", "'. $data['url'] .'", "'. $title . '", "","", "'. date('Y-m-d H:i:s') .'")';
 
 	// echo $sql . '<br />';exit;
 

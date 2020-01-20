@@ -141,15 +141,20 @@
                 data: {
                     'web_url': url
                 },
-                success: function(data) {
-                    if (typeof data == "undefined") {
+                success: function(response) {
+                    if (typeof response == "undefined") {
                         return false;
                     }
 
-                    urls = data;
+                    console.log(response);
+
+                    urls = response.result;
+
+                    console.log(urls);
+
 
                     $("#search_result").show();
-                    $.each(data, function(index, val) {
+                    $.each(urls, function(index, val) {
                         $("#table_result").append("<tr id='" + val['hash'] + "'><td>" + val['id'] + "</td><td>" + val['url'] + "</td><td class='last_visited'>" + val['last_visited'] + "</td><td class='status'>Pending</td></tr>");
                     });
                 },

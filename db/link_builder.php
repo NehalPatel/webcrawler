@@ -5,8 +5,15 @@ require_once dirname( __FILE__ ) . '/db_helper.php';
 //save urls in database
 function save_urls($urls = array())
 {
-	if(empty($urls))
-		return false;
+	$response = [];
+	if(empty($urls)){
+		$response['status'] = 'error';
+		$response['message'] = 'no URLs found in array';
+		return $response;
+	}
+
+	$response['status'] = 'success';
+	$response['message'] = 'All URLs are saved into database successfully.';
 
 	foreach ($urls as $key => $link) {
 
@@ -18,10 +25,14 @@ function save_urls($urls = array())
 		$data['page_title'] = '';
 		$data['data'] = '';
 
-		save_link( $data );
+		if( ! save_link( $data ) ){
+			$response['status'] = 'error';
+			$response['message'] = 'Error while saving into database.';
+			$response['data'] = $data;
+		}
 	}
 
-	return true;
+	return $response;
 }
 
 function get_all_urls_from_db()

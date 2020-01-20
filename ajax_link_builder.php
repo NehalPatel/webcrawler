@@ -15,10 +15,19 @@ $html = getUrl( $web_url );
 $html = clean_html($html);
 $urls = getURLs($html, $web_url);
 
-save_urls( $urls );
+$response = save_urls( $urls );
+if( $response['status'] == 'error'){
+	echo json_encode( $response );
+}
 
 $urls = get_all_urls_from_db();
 
-echo json_encode( $urls );
+$response['status'] = 'success';
+$response['message'] = 'All URLs are saved into database successfully.';
+$response['result'] = $urls;
+
+// print_r($response);exit;
+
+echo json_encode( $response );
 exit;
 ?>
